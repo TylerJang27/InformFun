@@ -28,10 +28,10 @@ After pushing the coffin:
 The Bedroom is a room. "Stepping out of the coffin, you turn in a circle, confused. You hear music and chatter coming from below, with stairs to the side." The stairs are a staircase. The stairs are below the Bedroom and above the Tavern.
 
 
-The iron key is an object.
+The iron key is an object. 
 The Tavern is a room. "Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.  A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.
 
-	Other than a tall oak door on the west wall, there doesn't seem to be any exits. You try to walk toward the oak door but stop when the dwarf glares at you."
+	Other than a tall oak door on the west wall, a dorm door to the north wall, and a heavy metal door to the east, there doesn't seem to be any other exits. You try to walk toward the oak door but stop when the dwarf glares at you."
 
 
 There is a fireplace in the Tavern. "Instead, looking around, you see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts." The description is "[if we have not examined the fireplace]Weird, you could have sworn there was a fireplace here, but all you see are floorboards. Feels a little warm though.[otherwise]Ouch, that's hot! Maybe we shouldn't keep looking closer..."
@@ -46,7 +46,7 @@ After pushing the bookshelf:
 	say "[if we have not pushed the bookshelf]You give the bookshelf a hard shove and it topples over, falling onto the minstrel. With a screech, Featherock crumbles into a cloud of dust, his harp clanging to a rest on the ground.[otherwise]It's already toppled over.".
 
 After asking bartender about "where I am":
-	say "[if we have not pushed the bookshelf]You pull up a seat at the bar, and ask the bartender, 'I'm trying to leave. Where's the exit?' He slams a drink on the counter, 'Ha! You want to leave? Get rid of that minstrel first. He's driving me crazy.' You look back to the bartender. 'Are you sure I have to do this?' He glared at you. Guess that's a yes.[otherwise]'Not bad,' the dwarf said gruffly. 'Here's an iron key. Take the oak door to the west to go camping.'";
+	say "[if we have not pushed the bookshelf]You pull up a seat at the bar, and ask the bartender, 'I'm trying to leave. Where's the exit?' He slams a drink on the counter, 'Ha! You want to leave? Get rid of that minstrel first. He's driving me crazy.' You look back to the bartender. 'Are you sure I have to do this?' He glared at you. Guess that's a yes.[otherwise]'Not bad,' the dwarf said gruffly. 'Here's an iron key. Take the oak door to the west to go camping. Take the heavy metal door to the east to adventure in the howling abyss. I'd recommend taking the dorm door to the north last. It's quite a party up there.'";
 	if we have pushed the bookshelf, now the player has the iron key.
 
 In the Tavern is a man called hooded figure. The description of hooded figure is "[if we have not examined hooded figure]Turning to sneak a glance at the hooded figure, you blink in surprise to see that the figure is looking back at you. Maybe they're friendly? Can't hurt to ask them about an exit right? You start to ask, 'Hey, do you know where-' But before you can finish your sentence, the figure splits in half into two small halflings, who look at you curiously before vanishing into a puff of smoke.[otherwise]You look around but the hooded figure is nowhere to be found.".
@@ -92,18 +92,35 @@ The Temple is a room. It is west of Forest.
 
 
 
+Gold pieces is an object. 
+Gold key is an object.
+Trinity Force is an object.
+The Abyss is a room. "As you enter a pale blue chamber, the temperature seems to suddenly drop almost 10 degrees. The ghastly ghost of Gregor sits in the corner and exclaims: 'Throw them into the abyss!' In front of you, on a narrow bridge, some characters appear to be fighting. A mural is seen on the far side of the room." In the Abyss is a mural. There is a heavy metal door. It is east of Tavern and west of Abyss. It is a door.
 
-The Abyss is a room. It is east of Tavern.
+In the Abyss is a man called Gregor. The description of Gregor is "You walk up to Gregor. He is sitting on a chest of sorts, and behind him, random items are placed for sale. Some swords, a green potion- he interrupts your staring with an offer, 'Greetings! I'll sell you a Trinity Force for 3333 gold. Interested?' Not sure what that is, but too bad you don't have any gold to buy things from his shop.".
 
+After asking Gregor about "Trinity Force":
+	say "[if the player does not have gold pieces]Gregor turned away with a sigh. 'Look, if you don't have any gold, I can't help ya there.'[otherwise]Gregor smiled wide, 'Here ya go. To the victor go the spoils!'";
+	if the player has gold pieces:
+		now the gold pieces is nowhere;
+		now the player has Trinity Force.
+	
+After examining the mural:
+	say "A majestic gay horse is arrayed in splendid fashion on the wall, depicting epic battles alongside a tentacle-surrounded Priestess. As you look closer, the stone almost seems to move, a fierce battle playing out. She seems to be speaking to you, asking you to do something. G-a-n-k... What could it be?".
+	
+Ganking is an action applying to one thing. Understand "gank [something]" as ganking.
 
-
+After ganking the mural:
+	say "You gank the mural. The fight is won and the Priestess salutes you. A gold key falls from the sky. Suddenly, your pocket feels a little heavier. Peeking inside, you're shocked to discover exactly 3333 gold pieces.";
+	now the player has gold pieces;
+	now the player has gold key.
 
 The Arizona is a room. It is east of Abyss.
 
 
 
 
-The Nightclub is a room. It is north of Tavern.
+The Nightclub is a room. There is a dorm door. It is north of Tavern and south of Nightclub. It is a door.
 
 
 
