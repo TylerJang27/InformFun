@@ -37,16 +37,16 @@ There is a fireplace in the Tavern. "Instead, looking around, you see a cracklin
 
 There is a bookshelf in the Tavern. "In the corner, a bookshelf sways haphazardly. Several books threaten to fall down above the minstrel, obliviously strumming away on what looks to be a hand harp." The description is "[if we have not examined the bookshelf]Just floorboards. Nothing interesting here, nope.[otherwise]Still just floorboards. From the corner of your eye, you see the other customers looking at you funny."
 
-There is a Featherock in the Tavern. "Next to the minstrel, there is a piece of paper tacked to the wall next to him, with the name 'Featherock' in bold font. Why does that name sound so familiar?"
+In the Tavern is a man called Featherock. The description of Featherock is "Next to the minstrel, there is a piece of paper tacked to the wall next to him, with the name 'Featherock' in bold font. Why does that name sound so familiar?"
 
-There is a bartender in the Tavern. "You look back at the bartender tentatively, eyes glancing at the key on his necklace, and he growls at you. 'I'm trying to work over here. What do you want?'"
+In the Tavern is a man called bartender. The description of bartender is "You look back at the bartender tentatively, eyes glancing at the key on his necklace, and he growls at you. 'I'm trying to work over here. What do you want?'"
 
-After asking the bartender about "exit":
+After asking bartender about "exit":
 	say "You pull up a seat at the bar, and ask the bartender, 'I'm trying to leave. Where's the exit?' He slams a drink on the counter, 'Ha! You want to leave? Get rid of that minstrel first. He's driving me crazy.' You look back to the bartender. 'Are you sure I have to do this?' He glared at you. Guess that's a yes."
 
-There is a hooded figure in the Tavern. "Turning to sneak a glance at the hooded figure, you blink in surprise to see that the figure is looking back at you."
+In the Tavern is a man called hooded figure. The description of hooded figure is "Turning to sneak a glance at the hooded figure, you blink in surprise to see that the figure is looking back at you."
 
-After asking the hooded figure about "exit":
+After asking hooded figure about "exit":
 	[if we have not asked the hooded figure about "exit"]
 	say "You turn to the hooded figure, 'Hey, do you know where-' But before you can finish your sentence, the figure splits in half into two small halflings, who look at you curiously before vanishing into a puff of smoke.";
 	[otherwise]
