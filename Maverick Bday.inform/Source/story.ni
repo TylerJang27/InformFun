@@ -12,7 +12,15 @@ Instead of climbing a staircase:
 
 Test me with "climb ladder / g". 
 
-
+A person has a number called maximum hit points. A person has a number called current hit points.
+The maximum hit points of the player is 10. The current hit points of the player is 10.
+	
+Hp is an action applying to nothing. Understand "hp" as hp. After hp:
+	say "You have [current hit points of the player] hit points!"
+	
+After jumping:
+	say "Hippity Hoppity. You have more hp!";
+	increase the current hit points of the player by 1.
 
 The Darkness is a room. "The grips of the coffin surround you. Your lungs fight to choke down air."
 
@@ -51,6 +59,8 @@ After asking bartender about "where I am":
 
 In the Tavern is a man called hooded figure. The description of hooded figure is "[if we have not examined hooded figure]Turning to sneak a glance at the hooded figure, you blink in surprise to see that the figure is looking back at you. Maybe they're friendly? Can't hurt to ask them about an exit right? You start to ask, 'Hey, do you know where-' But before you can finish your sentence, the figure splits in half into two small halflings, who look at you curiously before vanishing into a puff of smoke.[otherwise]You look around but the hooded figure is nowhere to be found.".
 
+
+
 The Forest is a room. There is a tall oak door. It is east of Forest and west of Tavern. It is a door. The description of the Forest is "You enter a forest, filled with the oaken scent of woodsmoke. A man is crouched over a small fire, with goggles."
 
 There is a log in the Forest. The description of a log is "It is partially eaten by termites."
@@ -76,21 +86,30 @@ After taking the stick:
 	say "You poke the stick in the fire and it alights. You feel like Gandalf.".
 
 Lying is an action applying to one thing. Understand "lying in [something]" as lying. Understand "laying in [something]" as lying. Understand "lay in [something]" as lying.
-The key is an object.
+The bronze key is an object.
 
 In the Forest is a man called goggled man. The description of goggled man is "He does not acknowledge you, but emits a loud yell."
 
 There is a hammock in the Forest. The description of the hammock is "A woven hammock, strung between two trees. Looks comfy."
 After lying the hammock:
-	say "You lay in the hammock, and the goggled man comes to join you, because he’s not gay. He gives you an __ key.";
-	now the player has a key.
+	say "You lay in the hammock, and a man in red comes to join you, because he’s not gay. He gives you a bronze key.";
+	now the player has a bronze key.
 
+The Temple is a room. There is a path. It is east of Temple and west of Forest. It is a door. The description of Temple is "You enter a grassy temple. A clock tower looms above you, tolling an evening tune. Without warning, discs start shooting out of the wall, crisscrossing in the room." 
 
+There is a frisbee in the Temple. Understand "disc" as frisbee.
+There is a silver key.
+Kicking is an action applying to one thing. Understand "kick [something]" as kicking. 
 
-
-The Temple is a room. It is west of Forest.
-
-
+After touching the frisbee:
+	say "Ouch. Sharp to the hands! Take 1 damage";
+	decrease the current hit points of the player by 1;
+	if the current hit points of the player is less than 1:
+		say "[line break]You die!";
+		end the story.
+After kicking the frisbee:
+	say "The frisbee falls with a thud. What a block![line break]A key fell from below the disc.";
+	now the player has a silver key.
 
 Gold pieces is an object. 
 Gold key is an object.
