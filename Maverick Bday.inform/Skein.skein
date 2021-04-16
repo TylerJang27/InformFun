@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-50">
   <generator>Windows Inform 7 6M62</generator>
@@ -1291,3 +1292,295 @@
     <changed>NO</changed>
   </item>
 </Skein>
+=======
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1013">
+    <generator>Inform Mac Client (Inform version )</generator>
+    <item nodeId="node-1013">
+        <command xml:space="preserve">Maverick Bday</command>
+        <result xml:space="preserve">
+
+
+You're finally awake. You find yourself covered in darkness, smothered by the forces around you. Dazed, you try to sit up but there's something above you. You roll over to a side but there's something there too. Panicked, you look around blindly. You know you must press on to be free.
+Maverick Bday
+An Interactive Fiction by Tyler Jang and Mary Wang
+Release 1 / Serial number 210415 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+Darkness
+The grips of the coffin surround you. Your lungs fight to choke down air.
+
+If only you could see properly...
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1016"></child>
+            <child nodeId="node-1019"></child>
+        </children>
+    </item>
+    <item nodeId="node-1019">
+        <command xml:space="preserve">push coffin</command>
+        <result xml:space="preserve">You shove the top of the coffin hard and it falls to the side easily.
+
+Tavern
+Stepping out of the coffin, you turn in a circle, confused. Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks. A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.
+
+Other than a small door behind the bartender, there doesn't seem to be any exits. You try to walk to the side to peek around the dwarf but he glares at you. Stopping, your eyes glance down at the key on his necklace, and he growls at you. "I'm trying to work over here. What do you want?"
+
+Instead of responding, you look around and see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts.
+
+In the corner, a bookshelf sways haphazardly. Several books threaten to fall down above the minstrel, obliviously strumming away on what looks to be a hand harp. Next to the minstrel, there is a piece of paper tacked to the wall next to him, with the name "Featherock" in bold font. Why does that name sound so familiar?
+
+You can also see a Featherock, a bartender and a hooded figure here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1052"></child>
+            <child nodeId="node-1049"></child>
+            <child nodeId="node-1028"></child>
+            <child nodeId="node-1032"></child>
+            <child nodeId="node-1041"></child>
+            <child nodeId="node-1026"></child>
+            <child nodeId="node-1021"></child>
+            <child nodeId="node-1037"></child>
+            <child nodeId="node-1039"></child>
+        </children>
+    </item>
+    <item nodeId="node-1039">
+        <command xml:space="preserve">push bookshelf</command>
+        <result xml:space="preserve">You give the bookshelf a hard shove and it topples over, falling onto the minstrel. With a screech, Featherock crumbles into a cloud of dust, his harp clanging to a rest on the ground
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1037">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Tavern
+Stepping out of the coffin, you turn in a circle, confused. Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks. A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.
+
+Other than a small door behind the bartender, there doesn't seem to be any exits. You try to walk to the side to peek around the dwarf but stop when he glares at you.
+
+Instead, looking around, you see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts.
+
+In the corner, a bookshelf sways haphazardly. Several books threaten to fall down above the minstrel, obliviously strumming away on what looks to be a hand harp. There is a piece of paper tacked to the wall next to him, with the name "Featherock" in bold font.
+
+You can also see Featherock, Hooded Figure and Bartender here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1021">
+        <command xml:space="preserve">examine fireplace</command>
+        <result xml:space="preserve">Weird, you could have sworn there was a fireplace here, but all you see are floorboards. Feels a little warm though.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1022"></child>
+        </children>
+    </item>
+    <item nodeId="node-1022">
+        <command xml:space="preserve">examine tavern</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1023"></child>
+        </children>
+    </item>
+    <item nodeId="node-1023">
+        <command xml:space="preserve">examine fireplace</command>
+        <result xml:space="preserve">Ouch, that's hot! Maybe we shouldn't keep looking closer...
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1024"></child>
+        </children>
+    </item>
+    <item nodeId="node-1024">
+        <command xml:space="preserve">examine bookshelf</command>
+        <result xml:space="preserve">Still just floorboards. From the corner of your eye, you see the other customers looking at you funny.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1026">
+        <command xml:space="preserve">examine bookshelf</command>
+        <result xml:space="preserve">Just floorboards. Nothing interesting here, nope.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1041">
+        <command xml:space="preserve">examine bartender</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1042"></child>
+        </children>
+    </item>
+    <item nodeId="node-1042">
+        <command xml:space="preserve">examine the bartender</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1043"></child>
+        </children>
+    </item>
+    <item nodeId="node-1043">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Tavern
+Stepping out of the coffin, you turn in a circle, confused. Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks. A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.
+
+Other than a small door behind the bartender, there doesn't seem to be any exits. You try to walk to the side to peek around the dwarf but stop when he glares at you.
+
+Instead, looking around, you see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts.
+
+In the corner, a bookshelf sways haphazardly. Several books threaten to fall down above the minstrel, obliviously strumming away on what looks to be a hand harp.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1044"></child>
+        </children>
+    </item>
+    <item nodeId="node-1044">
+        <command xml:space="preserve">ask the bartender about exit</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1045"></child>
+        </children>
+    </item>
+    <item nodeId="node-1045">
+        <command xml:space="preserve">ask the bartender about "exit"</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1046"></child>
+        </children>
+    </item>
+    <item nodeId="node-1046">
+        <command xml:space="preserve">ask bartender about "exit"</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1047"></child>
+        </children>
+    </item>
+    <item nodeId="node-1047">
+        <command xml:space="preserve">ask bartender about exit</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1032">
+        <command xml:space="preserve">examine Tavern</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1033"></child>
+        </children>
+    </item>
+    <item nodeId="node-1033">
+        <command xml:space="preserve">examine</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1034"></child>
+        </children>
+    </item>
+    <item nodeId="node-1034">
+        <command xml:space="preserve">look at Tavern</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1028">
+        <command xml:space="preserve">examin tavern</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1029"></child>
+        </children>
+    </item>
+    <item nodeId="node-1029">
+        <command xml:space="preserve">examine Tavern</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1030"></child>
+        </children>
+    </item>
+    <item nodeId="node-1030">
+        <command xml:space="preserve">examine tavern</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1049">
+        <command xml:space="preserve">ask bartender about exit</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1050"></child>
+        </children>
+    </item>
+    <item nodeId="node-1050">
+        <command xml:space="preserve">ask bartender</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1052">
+        <command xml:space="preserve">ask bartender</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1016">
+        <command xml:space="preserve">examine coffin</command>
+        <result xml:space="preserve">You breathe in and breathe out. When you calm down enough to look around you, you notice that it isn't as dark as you thought. As your eyes adjust, you look down and - wait, is that your bed?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1017"></child>
+        </children>
+    </item>
+    <item nodeId="node-1017">
+        <command xml:space="preserve">touch coffin</command>
+        <result xml:space="preserve">The void is… surprisingly soft. It feels suspiciously like styrofoam?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1018"></child>
+        </children>
+    </item>
+    <item nodeId="node-1018">
+        <command xml:space="preserve">push coffin</command>
+        <result xml:space="preserve">You shove the top of the coffin hard and it falls to the side easily.
+
+Tavern
+Stepping out of the coffin, you turn in a circle, confused. Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.
+
+Looking around, you see a crackling fireplace by the wall.
+
+In the corner, several books threaten to fall down above the minstrel.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>
+>>>>>>> 78b83464d3ce963ac650c3df1ced514bb25aef06
