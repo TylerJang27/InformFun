@@ -1,95 +1,84 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-50">
+<Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-198"/>
-  <item nodeId="node-50">
+  <activeNode nodeId="node-79"/>
+  <item nodeId="node-1">
     <command xml:space="preserve">Maverick Bday</command>
-    <result xml:space="preserve">You're finally awake. You find yourself covered in darkness, smothered by the forces around you. Dazed, you try to sit up but there's something above you. You roll over to a side but there's something there too. Panicked, you look around blindly. You know you must press on to be free.&#x000A;Maverick Bday&#x000A;An Interactive Fiction by Tyler Jang and Mary Wang&#x000A;Release 1 / Serial number 210415 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Darkness (in the coffin)&#x000A;The grips of the coffin surround you. Your lungs fight to choke down air.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You're finally awake. You find yourself covered in darkness, smothered by the forces around you. Dazed, you try to sit up but there's something above you. You roll over to a side but there's something there too. Panicked, you look around blindly. You know you must press on to be free.&#x000A;Maverick Bday&#x000A;An Interactive Fiction by Tyler Jang and Mary Wang&#x000A;Release 1 / Serial number 210416 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Darkness (in the coffin)&#x000A;The grips of the coffin surround you. Your lungs fight to choke down air.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-51"/>
-      <child nodeId="node-54"/>
-      <child nodeId="node-57"/>
-      <child nodeId="node-63"/>
-      <child nodeId="node-74"/>
-      <child nodeId="node-77"/>
-      <child nodeId="node-97"/>
-      <child nodeId="node-107"/>
-      <child nodeId="node-137"/>
-      <child nodeId="node-145"/>
-      <child nodeId="node-179"/>
+      <child nodeId="node-2"/>
+      <child nodeId="node-28"/>
     </children>
   </item>
-  <item nodeId="node-51">
-    <command xml:space="preserve">examine coffin</command>
-    <result xml:space="preserve">You breathe in and breathe out. When you calm down enough to look around you, you notice that it isn't as dark as you thought. As your eyes adjust, you look down and - wait, is that your bed?&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-2">
+    <command xml:space="preserve">push</command>
+    <result xml:space="preserve">(the coffin)&#x000A;You shove the top of the coffin hard and it falls to the side easily.&#x000A;&#x000A;Bedroom&#x000A;Stepping out of the coffin, you turn in a circle, confused. You hear music and chatter coming from below, with stairs to the side.&#x000A;&#x000A;You can see a stairs here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-3"/>
+    </children>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">go down</command>
+    <result xml:space="preserve">Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.  A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.&#x000A;&#x000A;Other than a tall oak door on the west wall, a dorm door to the north wall, and a heavy metal door to the east, there doesn't seem to be any other exits. You try to walk toward the oak door but stop when the dwarf glares at you.&#x000A;&#x000A;Instead, looking around, you see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts.&#x000A;&#x000A;In the corner, a bookshelf sways haphazardly. Several books threaten to fall down above the minstrel, obliviously strumming away on what looks to be a hand harp.&#x000A;&#x000A;You can also see a tall oak door, a stairs, a dorm door, a heavy metal door, Featherock, bartender and hooded figure here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-4"/>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">(first opening the heavy metal door)&#x000A;&#x000A;Abyss&#x000A;As you enter a pale blue chamber, the temperature seems to suddenly drop almost 10 degrees. The ghastly ghost of Gregor sits in the corner and exclaims: "Throw them into the abyss!" In front of you, on a narrow bridge, some characters appear to be fighting. A mural is seen on the far side of the room.&#x000A;The metal door leads west back to the Tavern, and a highway leads east to Arizona.&#x000A;&#x000A;You can see a heavy metal door, a highway, a mural and Gregor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">(first opening the highway)&#x000A;&#x000A;Arizona&#x000A;As you get off the highway, you notice immediately that it's pretty cold, it's like 72 degrees, practically freezing.&#x000A;The highway leads west back to the Abyss.&#x000A;&#x000A;You see a laptop sitting on a desk just off the highway.&#x000A;&#x000A;There is also a large black notebook lying on the desk next to the laptop. It isn't open, but appears to be labled Engineering.&#x000A;&#x000A;There is a small robot sitting on the ground next to the desk, connected to the laptop by a long orange cable.&#x000A;&#x000A;You can also see a highway and a desk here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
     <children>
-      <child nodeId="node-52"/>
+      <child nodeId="node-6"/>
       <child nodeId="node-53"/>
-      <child nodeId="node-85"/>
+      <child nodeId="node-58"/>
+      <child nodeId="node-68"/>
     </children>
   </item>
-  <item nodeId="node-52">
-    <command xml:space="preserve">push coffin</command>
-    <result xml:space="preserve">You shove the top of the coffin hard and it falls to the side easily.&#x000A;&#x000A;Tavern&#x000A;Stepping out of the coffin, you turn in a circle, confused. Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.&#x000A;&#x000A;You can see a rusty iron grating here.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-6">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Arizona&#x000A;It is hot.&#x000A;The highway leads west back to the Abyss.&#x000A;&#x000A;You can see a highway here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-7"/>
+    </children>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">search</command>
+    <result xml:space="preserve">(the highway)&#x000A;You find nothing of interest.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
   <item nodeId="node-53">
-    <command xml:space="preserve">touch coffin</command>
-    <result xml:space="preserve">The void is&#x2026; surprisingly soft. It feels suspiciously like styrofoam?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-85">
-    <command xml:space="preserve">exit coffin</command>
-    <result xml:space="preserve">I only understood you as far as wanting to exit.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine the laptop</command>
+    <result xml:space="preserve">The laptop appears to have some code on it, it might do something cool, but it's doesn't have very many comments so who's to say.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-86"/>
+      <child nodeId="node-54"/>
     </children>
-  </item>
-  <item nodeId="node-86">
-    <command xml:space="preserve">look at ocffin</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-87"/>
-    </children>
-  </item>
-  <item nodeId="node-87">
-    <command xml:space="preserve">look at coffin</command>
-    <result xml:space="preserve">You see nothing special about the coffin.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-88"/>
-    </children>
-  </item>
-  <item nodeId="node-88">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Darkness (in the coffin)&#x000A;The grips of the coffin surround you. Your lungs fight to choke down air.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-89"/>
-    </children>
-  </item>
-  <item nodeId="node-89">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Darkness (in the coffin)&#x000A;The grips of the coffin surround you. Your lungs fight to choke down air.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
   </item>
   <item nodeId="node-54">
-    <command xml:space="preserve">exit the coffin</command>
-    <result xml:space="preserve">I only understood you as far as wanting to exit.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine the laptop</command>
+    <result xml:space="preserve">The laptop appears to have some code on it, it might do something cool, but it's doesn't have very many comments so who's to say.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -97,8 +86,8 @@
     </children>
   </item>
   <item nodeId="node-55">
-    <command xml:space="preserve">touch the coffin</command>
-    <result xml:space="preserve">The void is&#x2026; surprisingly soft. It feels suspiciously like styrofoam and hot glue?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine the robot</command>
+    <result xml:space="preserve">Though simple, this robot looks quite functional. It should definitely work, yup. 100% guaranteed.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -106,33 +95,32 @@
     </children>
   </item>
   <item nodeId="node-56">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">(first opening the rusty iron grating)&#x000A;&#x000A;Tavern&#x000A;Stepping out of the coffin, you turn in a circle, confused. Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.&#x000A;&#x000A;You can see a rusty iron grating here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine the notebook</command>
+    <result xml:space="preserve">I wonder what could be written in it.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-  </item>
-  <item nodeId="node-57">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">You would have to get out of the coffin first.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
     <children>
-      <child nodeId="node-58"/>
-      <child nodeId="node-78"/>
+      <child nodeId="node-57"/>
     </children>
   </item>
-  <item nodeId="node-58">
-    <command xml:space="preserve">unlock grating</command>
-    <result xml:space="preserve">What do you want to unlock the rusty iron grating with?&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-57">
+    <command xml:space="preserve">open the notebook</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">open the notebook</command>
+    <result xml:space="preserve">You open the notebook, curious about what interesting designs it may hold...&#x000A;None, there are no designs. There is, however, a key hidden in a compartment cut into the blank pages.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-59"/>
     </children>
   </item>
   <item nodeId="node-59">
-    <command xml:space="preserve">hand</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a platinum key&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -140,8 +128,8 @@
     </children>
   </item>
   <item nodeId="node-60">
-    <command xml:space="preserve">unlock grating</command>
-    <result xml:space="preserve">What do you want to unlock the rusty iron grating with?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine notebook</command>
+    <result xml:space="preserve">Yeah, this is probably the best use this has gotten.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -149,8 +137,8 @@
     </children>
   </item>
   <item nodeId="node-61">
-    <command xml:space="preserve">coffin</command>
-    <result xml:space="preserve">(first taking the coffin)&#x000A;That doesn't seem to fit the lock.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">touch robot</command>
+    <result xml:space="preserve">As you start the program, the robot begins to move, the data stream on the laptop looks more or less nonsensical, but it traces a perfect square in the dirt, so the positional tracking system must work pretty well.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -158,74 +146,17 @@
     </children>
   </item>
   <item nodeId="node-62">
-    <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  a coffin&#x000A;    You&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-78">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">You would have to get out of the coffin first.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">touch laptop</command>
+    <result xml:space="preserve">You look on in pride as the robot makes another perfect loop.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-79"/>
+      <child nodeId="node-63"/>
     </children>
-  </item>
-  <item nodeId="node-79">
-    <command xml:space="preserve">push coffin</command>
-    <result xml:space="preserve">You shove the top of the coffin hard and it falls to the side easily.&#x000A;&#x000A;Bedroom&#x000A;Stepping out of the coffin, you turn in a circle, confused. You hear music and chatter coming from below, with stairs to the side.&#x000A;&#x000A;You can see Stairs here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-80"/>
-    </children>
-  </item>
-  <item nodeId="node-80">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-81"/>
-    </children>
-  </item>
-  <item nodeId="node-81">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-82"/>
-    </children>
-  </item>
-  <item nodeId="node-82">
-    <command xml:space="preserve">go down</command>
-    <result xml:space="preserve">Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.&#x000A;&#x000A;You can see Stairs here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-83"/>
-    </children>
-  </item>
-  <item nodeId="node-83">
-    <command xml:space="preserve">go up</command>
-    <result xml:space="preserve">Bedroom&#x000A;Stepping out of the coffin, you turn in a circle, confused. You hear music and chatter coming from below, with stairs to the side.&#x000A;&#x000A;You can see Stairs here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-84"/>
-    </children>
-  </item>
-  <item nodeId="node-84">
-    <command xml:space="preserve">climb stairs</command>
-    <result xml:space="preserve">Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.&#x000A;&#x000A;You can see Stairs here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
   </item>
   <item nodeId="node-63">
-    <command xml:space="preserve">take coffin</command>
-    <result xml:space="preserve">You would have to get out of the coffin first.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine laptop</command>
+    <result xml:space="preserve">As you watch, the laptop's screen starts to turn a bright shade of pink as the code disappears behind the malfunctioning display.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -233,8 +164,8 @@
     </children>
   </item>
   <item nodeId="node-64">
-    <command xml:space="preserve">exit coffin</command>
-    <result xml:space="preserve">I only understood you as far as wanting to exit.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine robot</command>
+    <result xml:space="preserve">This is a very good robot, should be eligible for some kind of award.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -242,8 +173,8 @@
     </children>
   </item>
   <item nodeId="node-65">
-    <command xml:space="preserve">leave coffin</command>
-    <result xml:space="preserve">I only understood you as far as wanting to leave.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">touch notebook</command>
+    <result xml:space="preserve">You feel nothing unexpected.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -251,8 +182,8 @@
     </children>
   </item>
   <item nodeId="node-66">
-    <command xml:space="preserve">escape</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine notebook</command>
+    <result xml:space="preserve">Yeah, this is probably the best use this has gotten.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -260,17 +191,14 @@
     </children>
   </item>
   <item nodeId="node-67">
-    <command xml:space="preserve">out of coffin</command>
-    <result xml:space="preserve">I only understood you as far as wanting to out.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine desk</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-68"/>
-    </children>
   </item>
   <item nodeId="node-68">
-    <command xml:space="preserve">go out of coffin</command>
-    <result xml:space="preserve">I only understood you as far as wanting to go outside.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine the desk</command>
+    <result xml:space="preserve">On the desk are a laptop and a notebook (closed).&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -278,17 +206,192 @@
     </children>
   </item>
   <item nodeId="node-69">
-    <command xml:space="preserve">examine coffin</command>
-    <result xml:space="preserve">You see nothing special about the coffin.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look desk</command>
+    <result xml:space="preserve">On the desk are a laptop and a notebook (closed).&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">push bookshelf</command>
+    <result xml:space="preserve">You give the bookshelf a hard shove and it topples over, falling onto the minstrel. With a screech, Featherock crumbles into a cloud of dust, his harp clanging to a rest on the ground.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">ask bartender about where I am</command>
+    <result xml:space="preserve">"Not bad," the dwarf said gruffly. "Here's an iron key. Take the oak door to the west to go camping. Take the heavy metal door to the east to adventure in the howling abyss. I'd recommend taking the dorm door to the north last. It's quite a party up there."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-10"/>
+    </children>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">(first opening the tall oak door)&#x000A;&#x000A;Forest&#x000A;You enter a forest, filled with the oaken scent of woodsmoke. A man is crouched over a small fire, with goggles. The oak door leads back east to the Tavern and a path leads west to a Temple.&#x000A;&#x000A;You can see a path, a tall oak door, a log, a golf club, a hatchet, a stick, goggled man and a hammock here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-11"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">lay in hammock</command>
+    <result xml:space="preserve">You lay in the hammock, and a man in red comes to join you, because he's not gay. He gives you a bronze key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-12"/>
+    </children>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">(first opening the path)&#x000A;&#x000A;Temple&#x000A;You enter a grassy temple. A clock tower looms above you, tolling an evening tune. Without warning, discs start shooting out of the wall, crisscrossing in the room.&#x000A;The path leads back east to the Forest.&#x000A;&#x000A;You can see a path and a frisbee here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">kick frisbee</command>
+    <result xml:space="preserve">The frisbee falls with a thud. What a block!&#x000A;A key drops from below the disc.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Forest&#x000A;You enter a forest, filled with the oaken scent of woodsmoke. A man is crouched over a small fire, with goggles. The oak door leads back east to the Tavern and a path leads west to a Temple.&#x000A;&#x000A;You can see a path, a tall oak door, a log, a golf club, a hatchet, a stick, goggled man and a hammock here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.  A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.&#x000A;&#x000A;Other than a tall oak door on the west wall, a dorm door to the north wall, and a heavy metal door to the east, there doesn't seem to be any other exits. You try to walk toward the oak door but stop when the dwarf glares at you.&#x000A;&#x000A;Instead, looking around, you see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts.&#x000A;&#x000A;In the corner, a bookshelf sways haphazardly. Several books threaten to fall down above the minstrel, obliviously strumming away on what looks to be a hand harp.&#x000A;&#x000A;You can also see a tall oak door, a stairs, a dorm door, a heavy metal door, Featherock, bartender and hooded figure here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">(first opening the heavy metal door)&#x000A;&#x000A;Abyss&#x000A;As you enter a pale blue chamber, the temperature seems to suddenly drop almost 10 degrees. The ghastly ghost of Gregor sits in the corner and exclaims: "Throw them into the abyss!" In front of you, on a narrow bridge, some characters appear to be fighting. A mural is seen on the far side of the room.&#x000A;The metal door leads west back to the Tavern, and a highway leads east to Arizona.&#x000A;&#x000A;You can see a heavy metal door, a highway, a mural and Gregor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">gank mural</command>
+    <result xml:space="preserve">You gank the mural. The fight is won and the Priestess salutes you. A gold key falls from the sky. Suddenly, your pocket feels a little heavier. Peeking inside, you're shocked to discover exactly 3333 gold pieces.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">ask Gregor about Trinity Force</command>
+    <result xml:space="preserve">Gregor smiled wide, "Here ya go. To the victor go the spoils!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">(first opening the highway)&#x000A;&#x000A;Arizona&#x000A;As you get off the highway, you notice immediately that it's pretty cold, it's like 72 degrees, practically freezing.&#x000A;The highway leads west back to the Abyss.&#x000A;&#x000A;You see a laptop sitting on a desk just off the highway.&#x000A;&#x000A;There is also a large black notebook lying on the desk next to the laptop. It isn't open, but appears to be labled Engineering.&#x000A;&#x000A;There is a small robot sitting on the ground next to the desk, connected to the laptop by a long orange cable.&#x000A;&#x000A;You can also see a highway and a desk here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-20"/>
       <child nodeId="node-70"/>
     </children>
   </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Abyss&#x000A;As you enter a pale blue chamber, the temperature seems to suddenly drop almost 10 degrees. The ghastly ghost of Gregor sits in the corner and exclaims: "Throw them into the abyss!" In front of you, on a narrow bridge, some characters appear to be fighting. A mural is seen on the far side of the room.&#x000A;The metal door leads west back to the Tavern, and a highway leads east to Arizona.&#x000A;&#x000A;You can see a highway, a heavy metal door, a mural and Gregor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.  A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.&#x000A;&#x000A;Other than a tall oak door on the west wall, a dorm door to the north wall, and a heavy metal door to the east, there doesn't seem to be any other exits. You try to walk toward the oak door but stop when the dwarf glares at you.&#x000A;&#x000A;Instead, looking around, you see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts.&#x000A;&#x000A;In the corner, a bookshelf sways haphazardly. Several books threaten to fall down above the minstrel, obliviously strumming away on what looks to be a hand harp.&#x000A;&#x000A;You can also see a heavy metal door, a tall oak door, a stairs, a dorm door, Featherock, bartender and hooded figure here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the dorm door)&#x000A;&#x000A;Nightclub&#x000A;The party is lit. Everyone is vibing like there's no tomorrow. Some kid in the corner is doing the macarena. The DJ is the center of attention, keeping the music popping.&#x000A;There is a dorm door leading back south to the tavern and a wooden door leading north.&#x000A;&#x000A;You can see a dorm door, a wooden door, a metal bull, a mirror and DJ here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">ask DJ about Everytime We Touch</command>
+    <result xml:space="preserve">What a banger! I'll put it on. Here's a diamond key for your troubles.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the wooden door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">But you aren't in anything at the moment.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">quit</command>
+    <result xml:space="preserve">Are you sure you want to quit?</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
   <item nodeId="node-70">
-    <command xml:space="preserve">touch coffin</command>
-    <result xml:space="preserve">The void is&#x2026; surprisingly soft. It feels suspiciously like styrofoam and hot glue?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">open notebook</command>
+    <result xml:space="preserve">You open the notebook, curious about what interesting designs it may hold...&#x000A;None, there are no designs. There is, however, a key hidden in a compartment cut into the blank pages.&#x000A;You take the Platinum Key from the notebook.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -296,8 +399,8 @@
     </children>
   </item>
   <item nodeId="node-71">
-    <command xml:space="preserve">examine room</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Abyss&#x000A;As you enter a pale blue chamber, the temperature seems to suddenly drop almost 10 degrees. The ghastly ghost of Gregor sits in the corner and exclaims: "Throw them into the abyss!" In front of you, on a narrow bridge, some characters appear to be fighting. A mural is seen on the far side of the room.&#x000A;The metal door leads west back to the Tavern, and a highway leads east to Arizona.&#x000A;&#x000A;You can see a highway, a heavy metal door, a mural and Gregor here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -305,8 +408,8 @@
     </children>
   </item>
   <item nodeId="node-72">
-    <command xml:space="preserve">kick coffin</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.  A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.&#x000A;&#x000A;Other than a tall oak door on the west wall, a dorm door to the north wall, and a heavy metal door to the east, there doesn't seem to be any other exits. You try to walk toward the oak door but stop when the dwarf glares at you.&#x000A;&#x000A;Instead, looking around, you see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts.&#x000A;&#x000A;In the corner, a bookshelf sways haphazardly. Several books threaten to fall down above the minstrel, obliviously strumming away on what looks to be a hand harp.&#x000A;&#x000A;You can also see a heavy metal door, a tall oak door, a stairs, a dorm door, Featherock, bartender and hooded figure here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -314,14 +417,17 @@
     </children>
   </item>
   <item nodeId="node-73">
-    <command xml:space="preserve">push coffin</command>
-    <result xml:space="preserve">You shove the top of the coffin hard and it falls to the side easily.&#x000A;&#x000A;Tavern&#x000A;Stepping out of the coffin, you turn in a circle, confused. Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.&#x000A;&#x000A;You can see a rusty iron grating here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the dorm door)&#x000A;&#x000A;Nightclub&#x000A;The party is lit. Everyone is vibing like there's no tomorrow. Some kid in the corner is doing the macarena. The DJ is the center of attention, keeping the music popping.&#x000A;There is a dorm door leading back south to the tavern and a wooden door leading north.&#x000A;&#x000A;You can see a dorm door, a wooden door, a metal bull, a mirror and DJ here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
   </item>
   <item nodeId="node-74">
-    <command xml:space="preserve">open coffin</command>
-    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">ask DJ about Everytime We Touch</command>
+    <result xml:space="preserve">What a banger! I'll put it on. Here's a diamond key for your troubles.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -329,8 +435,8 @@
     </children>
   </item>
   <item nodeId="node-75">
-    <command xml:space="preserve">unlock coffin</command>
-    <result xml:space="preserve">What do you want to unlock the coffin with?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the wooden door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -338,1249 +444,258 @@
     </children>
   </item>
   <item nodeId="node-76">
-    <command xml:space="preserve">push coffin</command>
-    <result xml:space="preserve">You shove the top of the coffin hard and it falls to the side easily.&#x000A;&#x000A;Darkness&#x000A;The grips of the coffin surround you. Your lungs fight to choke down air.&#x000A;&#x000A;You can see a rusty iron grating and a coffin (empty) here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a diamond key&#x000A;  a platinum key&#x000A;  Trinity Force&#x000A;  a gold key&#x000A;  a silver key&#x000A;  a bronze key&#x000A;  an iron key&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-77"/>
+    </children>
   </item>
   <item nodeId="node-77">
-    <command xml:space="preserve">push coffin</command>
-    <result xml:space="preserve">You shove the top of the coffin hard and it falls to the side easily.&#x000A;&#x000A;Bedroom&#x000A;Stepping out of the coffin, you turn in a circle, confused. You hear music and chatter coming from below, with stairs to the side.&#x000A;&#x000A;You can see a stairs here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">unlock wooden door</command>
+    <result xml:space="preserve">The door springs open with a click!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-90"/>
-      <child nodeId="node-92"/>
+      <child nodeId="node-78"/>
     </children>
   </item>
-  <item nodeId="node-90">
-    <command xml:space="preserve">climb stairs</command>
-    <result xml:space="preserve">Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.&#x000A;&#x000A;You can see Stairs here.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-78">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the wooden door)&#x000A;&#x000A;Birthday&#x000A;As you step inside, a stream of confetti falls down on you and a party hat drops on your head.&#x000A;&#x000A;You walk forward and on the table in front of you is a cake with the words "Happy birthday!" on it. There is a knife and plate next to it.&#x000A;&#x000A;You can also see a wooden door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-91"/>
+      <child nodeId="node-79"/>
     </children>
   </item>
-  <item nodeId="node-91">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">tall oak door&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
-  </item>
-  <item nodeId="node-92">
-    <command xml:space="preserve">go down</command>
-    <result xml:space="preserve">Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.&#x000A;&#x000A;You can see a tall oak door and a stairs here.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-79">
+    <command xml:space="preserve">eat cake</command>
+    <result xml:space="preserve">(first taking the cake)&#x000A;Happy birthday, Maverick! Congrats on turning 13!&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-93"/>
-      <child nodeId="node-128"/>
-    </children>
   </item>
-  <item nodeId="node-93">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">(first opening the tall oak door)&#x000A;&#x000A;Forest&#x000A;You enter a forest, filled with the oaken scent of woodsmoke. A man is crouched over a small fire, with goggles.&#x000A;&#x000A;You can see a tall oak door and a golf club here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-94"/>
-      <child nodeId="node-102"/>
-      <child nodeId="node-105"/>
-    </children>
-  </item>
-  <item nodeId="node-94">
-    <command xml:space="preserve">go east</command>
-    <result xml:space="preserve">Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.&#x000A;&#x000A;You can see a tall oak door and Stairs here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-95"/>
-    </children>
-  </item>
-  <item nodeId="node-95">
-    <command xml:space="preserve">got west</command>
+  <item nodeId="node-28">
+    <command xml:space="preserve">help</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-96"/>
+      <child nodeId="node-29"/>
     </children>
   </item>
-  <item nodeId="node-96">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">Forest&#x000A;You can see a tall oak door here.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-29">
+    <command xml:space="preserve">actions</command>
+    <result xml:space="preserve">Actions listing on.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
   </item>
-  <item nodeId="node-102">
-    <command xml:space="preserve">examien golf club</command>
+  <item nodeId="node-30">
+    <command xml:space="preserve">help</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-103"/>
+      <child nodeId="node-31"/>
     </children>
   </item>
-  <item nodeId="node-103">
-    <command xml:space="preserve">examine golf club</command>
-    <result xml:space="preserve">An old rusty 5-Iron is leaning against the tree.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-31">
+    <command xml:space="preserve">climb ladder / g</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-104"/>
+      <child nodeId="node-32"/>
     </children>
   </item>
-  <item nodeId="node-104">
-    <command xml:space="preserve">swing golf club</command>
-    <result xml:space="preserve">There's nothing sensible to swing here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-105">
-    <command xml:space="preserve">swing golf club</command>
-    <result xml:space="preserve">There's nothing sensible to swing here.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-32">
+    <command xml:space="preserve">climb ladder</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-106"/>
-      <child nodeId="node-126"/>
+      <child nodeId="node-33"/>
     </children>
   </item>
-  <item nodeId="node-106">
-    <command xml:space="preserve">swinging golf club</command>
+  <item nodeId="node-33">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">hp</command>
+    <result xml:space="preserve">[hp]&#x000A;You have 10 hit points!&#x000A;[hp - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">[jumping]&#x000A;Hippity Hoppity. You have more hp!&#x000A;[jumping - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">coffin</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-37"/>
+    </children>
   </item>
-  <item nodeId="node-126">
-    <command xml:space="preserve">take club</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-37">
+    <command xml:space="preserve">touch coffin</command>
+    <result xml:space="preserve">[touching the coffin]&#x000A;The void is&#x2026; surprisingly soft. It feels suspiciously like styrofoam and hot glue?&#x000A;[touching the coffin - succeeded]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-127"/>
+      <child nodeId="node-38"/>
     </children>
   </item>
-  <item nodeId="node-127">
-    <command xml:space="preserve">swing club</command>
-    <result xml:space="preserve">There's nothing sensible to swing here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-128">
-    <command xml:space="preserve">go left</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-38">
+    <command xml:space="preserve">see</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-129"/>
+      <child nodeId="node-39"/>
     </children>
   </item>
-  <item nodeId="node-129">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">(first opening the tall oak door)&#x000A;&#x000A;Forest&#x000A;You enter a forest, filled with the oaken scent of woodsmoke. A man is crouched over a small fire, with goggles.&#x000A;&#x000A;You can see a tall oak door and a golf club here.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-39">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">[looking]&#x000A;Darkness (in the coffin)&#x000A;The grips of the coffin surround you. Your lungs fight to choke down air.&#x000A;&#x000A;[looking - succeeded]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-130"/>
+      <child nodeId="node-40"/>
     </children>
   </item>
-  <item nodeId="node-130">
-    <command xml:space="preserve">push coffin</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-40">
+    <command xml:space="preserve">inspect coffin</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-131"/>
+      <child nodeId="node-41"/>
     </children>
   </item>
-  <item nodeId="node-131">
-    <command xml:space="preserve">swing golf club</command>
-    <result xml:space="preserve">There's nothing sensible to swing here.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-41">
+    <command xml:space="preserve">see coffin</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-132"/>
+      <child nodeId="node-42"/>
     </children>
   </item>
-  <item nodeId="node-132">
-    <command xml:space="preserve">swing</command>
-    <result xml:space="preserve">What do you want to swing?&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-42">
+    <command xml:space="preserve">look coffin</command>
+    <result xml:space="preserve">[examining the coffin]&#x000A;You breathe in and breathe out. When you calm down enough to look around you, you notice that it isn't as dark as you thought. As your eyes adjust, you look down and - wait, is that your bed?&#x000A;&#x000A;[examining the coffin - succeeded]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-133"/>
+      <child nodeId="node-43"/>
     </children>
   </item>
-  <item nodeId="node-133">
-    <command xml:space="preserve">golf club</command>
-    <result xml:space="preserve">There's nothing sensible to swing here.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-43">
+    <command xml:space="preserve">player</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-134"/>
+      <child nodeId="node-44"/>
     </children>
   </item>
-  <item nodeId="node-134">
-    <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-44">
+    <command xml:space="preserve">where am i</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-135"/>
+      <child nodeId="node-45"/>
     </children>
   </item>
-  <item nodeId="node-135">
-    <command xml:space="preserve">take golf club</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-45">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">[taking inventory]&#x000A;You are carrying nothing.&#x000A;&#x000A;[taking inventory - succeeded]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-136"/>
+      <child nodeId="node-46"/>
     </children>
   </item>
-  <item nodeId="node-136">
-    <command xml:space="preserve">drop golf club</command>
-    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-97">
-    <command xml:space="preserve">go to forest</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-46">
+    <command xml:space="preserve">search coffin</command>
+    <result xml:space="preserve">[searching the coffin]&#x000A;The coffin is empty.&#x000A;&#x000A;[searching the coffin - succeeded]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-98"/>
+      <child nodeId="node-47"/>
     </children>
   </item>
-  <item nodeId="node-98">
-    <command xml:space="preserve">push coffin</command>
-    <result xml:space="preserve">You shove the top of the coffin hard and it falls to the side easily.&#x000A;&#x000A;Bedroom&#x000A;Stepping out of the coffin, you turn in a circle, confused. You hear music and chatter coming from below, with stairs to the side.&#x000A;&#x000A;You can see a stairs here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-99"/>
-    </children>
-  </item>
-  <item nodeId="node-99">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-100"/>
-    </children>
-  </item>
-  <item nodeId="node-100">
-    <command xml:space="preserve">go down</command>
-    <result xml:space="preserve">Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.&#x000A;&#x000A;You can see a tall oak door and a stairs here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-101"/>
-    </children>
-  </item>
-  <item nodeId="node-101">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">(first opening the tall oak door)&#x000A;&#x000A;Forest&#x000A;You enter a forest, filled with the oaken scent of woodsmoke. A man is crouched over a small fire, with goggles.&#x000A;&#x000A;You can see a tall oak door here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-107">
-    <command xml:space="preserve">go up</command>
-    <result xml:space="preserve">You would have to get out of the coffin first.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-108"/>
-    </children>
-  </item>
-  <item nodeId="node-108">
-    <command xml:space="preserve">push coffin</command>
-    <result xml:space="preserve">You shove the top of the coffin hard and it falls to the side easily.&#x000A;&#x000A;Bedroom&#x000A;Stepping out of the coffin, you turn in a circle, confused. You hear music and chatter coming from below, with stairs to the side.&#x000A;&#x000A;You can see a stairs here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-109"/>
-    </children>
-  </item>
-  <item nodeId="node-109">
-    <command xml:space="preserve">go down</command>
-    <result xml:space="preserve">Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.&#x000A;&#x000A;You can see a tall oak door and a stairs here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-110"/>
-    </children>
-  </item>
-  <item nodeId="node-110">
-    <command xml:space="preserve">go left</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-111"/>
-    </children>
-  </item>
-  <item nodeId="node-111">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">(first opening the tall oak door)&#x000A;&#x000A;Forest&#x000A;You enter a forest, filled with the oaken scent of woodsmoke. A man is crouched over a small fire, with goggles.&#x000A;&#x000A;You can see a tall oak door and a golf club here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-112"/>
-    </children>
-  </item>
-  <item nodeId="node-112">
-    <command xml:space="preserve">examine golf club</command>
-    <result xml:space="preserve">An old rusty 5-Iron is leaning against the tree.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-113"/>
-    </children>
-  </item>
-  <item nodeId="node-113">
-    <command xml:space="preserve">swing golf club</command>
-    <result xml:space="preserve">There's nothing sensible to swing here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-114"/>
-    </children>
-  </item>
-  <item nodeId="node-114">
-    <command xml:space="preserve">swing</command>
-    <result xml:space="preserve">What do you want to swing?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-115"/>
-    </children>
-  </item>
-  <item nodeId="node-115">
-    <command xml:space="preserve">golf club</command>
-    <result xml:space="preserve">There's nothing sensible to swing here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-116"/>
-    </children>
-  </item>
-  <item nodeId="node-116">
-    <command xml:space="preserve">swing club</command>
-    <result xml:space="preserve">There's nothing sensible to swing here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-117"/>
-    </children>
-  </item>
-  <item nodeId="node-117">
-    <command xml:space="preserve">swing</command>
-    <result xml:space="preserve">What do you want to swing?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-118"/>
-    </children>
-  </item>
-  <item nodeId="node-118">
-    <command xml:space="preserve">what</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-119"/>
-    </children>
-  </item>
-  <item nodeId="node-119">
-    <command xml:space="preserve">swing club</command>
-    <result xml:space="preserve">There's nothing sensible to swing here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-120"/>
-    </children>
-  </item>
-  <item nodeId="node-120">
-    <command xml:space="preserve">take club</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-121"/>
-    </children>
-  </item>
-  <item nodeId="node-121">
-    <command xml:space="preserve">swing club</command>
-    <result xml:space="preserve">There's nothing sensible to swing here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-122"/>
-    </children>
-  </item>
-  <item nodeId="node-122">
-    <command xml:space="preserve">swing golf club</command>
-    <result xml:space="preserve">There's nothing sensible to swing here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-123"/>
-    </children>
-  </item>
-  <item nodeId="node-123">
-    <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  a golf club&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-124"/>
-    </children>
-  </item>
-  <item nodeId="node-124">
-    <command xml:space="preserve">go back</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-125"/>
-    </children>
-  </item>
-  <item nodeId="node-125">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">Forest&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-137">
-    <command xml:space="preserve">swing</command>
-    <result xml:space="preserve">(the coffin)&#x000A;There's nothing sensible to swing here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-138"/>
-    </children>
-  </item>
-  <item nodeId="node-138">
+  <item nodeId="node-47">
     <command xml:space="preserve">push</command>
-    <result xml:space="preserve">(the coffin)&#x000A;You shove the top of the coffin hard and it falls to the side easily.&#x000A;&#x000A;Bedroom&#x000A;Stepping out of the coffin, you turn in a circle, confused. You hear music and chatter coming from below, with stairs to the side.&#x000A;&#x000A;You can see a stairs here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">(the coffin)&#x000A;[pushing the coffin]&#x000A;You shove the top of the coffin hard and it falls to the side easily.&#x000A;&#x000A;[(1) looking]&#x000A;Bedroom&#x000A;Stepping out of the coffin, you turn in a circle, confused. You hear music and chatter coming from below, with stairs to the side.&#x000A;&#x000A;You can see a stairs here.&#x000A;&#x000A;[(1) looking - succeeded]&#x000A;&#x000A;[pushing the coffin - succeeded]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-139"/>
+      <child nodeId="node-48"/>
     </children>
   </item>
-  <item nodeId="node-139">
+  <item nodeId="node-48">
     <command xml:space="preserve">go down</command>
-    <result xml:space="preserve">Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.&#x000A;&#x000A;You can see a tall oak door and a stairs here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">[going down]&#x000A;&#x000A;Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.  A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.&#x000A;&#x000A;Other than a tall oak door on the west wall, a dorm door to the north wall, and a heavy metal door to the east, there doesn't seem to be any other exits. You try to walk toward the oak door but stop when the dwarf glares at you.&#x000A;&#x000A;Instead, looking around, you see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts.&#x000A;&#x000A;In the corner, a bookshelf sways haphazardly. Several books threaten to fall down above the minstrel, obliviously strumming away on what looks to be a hand harp.&#x000A;&#x000A;You can also see a tall oak door, a stairs, a dorm door, a heavy metal door, Featherock, bartender and hooded figure here.&#x000A;&#x000A;[going down - succeeded]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-140"/>
+      <child nodeId="node-49"/>
     </children>
   </item>
-  <item nodeId="node-140">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">(first opening the tall oak door)&#x000A;&#x000A;Forest&#x000A;You enter a forest, filled with the oaken scent of woodsmoke. A man is crouched over a small fire, with goggles.&#x000A;&#x000A;You can see a tall oak door and a golf club here.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-49">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">[looking]&#x000A;Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.  A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.&#x000A;&#x000A;Other than a tall oak door on the west wall, a dorm door to the north wall, and a heavy metal door to the east, there doesn't seem to be any other exits. You try to walk toward the oak door but stop when the dwarf glares at you.&#x000A;&#x000A;Instead, looking around, you see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts.&#x000A;&#x000A;In the corner, a bookshelf sways haphazardly. Several books threaten to fall down above the minstrel, obliviously strumming away on what looks to be a hand harp.&#x000A;&#x000A;You can also see a tall oak door, a stairs, a dorm door, a heavy metal door, Featherock, bartender and hooded figure here.&#x000A;&#x000A;[looking - succeeded]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-141"/>
+      <child nodeId="node-50"/>
     </children>
   </item>
-  <item nodeId="node-141">
-    <command xml:space="preserve">swing</command>
-    <result xml:space="preserve">What do you want to swing?&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-50">
+    <command xml:space="preserve">look bookshelf</command>
+    <result xml:space="preserve">[examining the bookshelf]&#x000A;Just floorboards. Nothing interesting here, nope.&#x000A;&#x000A;[examining the bookshelf - succeeded]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-142"/>
+      <child nodeId="node-51"/>
     </children>
   </item>
-  <item nodeId="node-142">
-    <command xml:space="preserve">club</command>
-    <result xml:space="preserve">There's nothing sensible to swing here.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-51">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-143"/>
+      <child nodeId="node-52"/>
     </children>
   </item>
-  <item nodeId="node-143">
-    <command xml:space="preserve">swing</command>
-    <result xml:space="preserve">What do you want to swing?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-144"/>
-    </children>
-  </item>
-  <item nodeId="node-144">
-    <command xml:space="preserve">golf club</command>
-    <result xml:space="preserve">There's nothing sensible to swing here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-145">
-    <command xml:space="preserve">push</command>
-    <result xml:space="preserve">(the coffin)&#x000A;You shove the top of the coffin hard and it falls to the side easily.&#x000A;&#x000A;Bedroom&#x000A;Stepping out of the coffin, you turn in a circle, confused. You hear music and chatter coming from below, with stairs to the side.&#x000A;&#x000A;You can see a stairs here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-146"/>
-    </children>
-  </item>
-  <item nodeId="node-146">
-    <command xml:space="preserve">go down</command>
-    <result xml:space="preserve">Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.&#x000A;&#x000A;You can see a tall oak door and a stairs here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-147"/>
-      <child nodeId="node-167"/>
-    </children>
-  </item>
-  <item nodeId="node-147">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">(first opening the tall oak door)&#x000A;&#x000A;Forest&#x000A;You enter a forest, filled with the oaken scent of woodsmoke. A man is crouched over a small fire, with goggles.&#x000A;&#x000A;You can see a tall oak door, a log, a golf club and a hatchet here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-148"/>
-      <child nodeId="node-152"/>
-      <child nodeId="node-163"/>
-      <child nodeId="node-164"/>
-      <child nodeId="node-177"/>
-      <child nodeId="node-185"/>
-    </children>
-  </item>
-  <item nodeId="node-148">
-    <command xml:space="preserve">swing</command>
-    <result xml:space="preserve">What do you want to swing?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-149"/>
-    </children>
-  </item>
-  <item nodeId="node-149">
-    <command xml:space="preserve">golf club</command>
-    <result xml:space="preserve">There's nothing sensible to swing here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-150"/>
-    </children>
-  </item>
-  <item nodeId="node-150">
-    <command xml:space="preserve">touch</command>
-    <result xml:space="preserve">What do you want to touch?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-151"/>
-    </children>
-  </item>
-  <item nodeId="node-151">
-    <command xml:space="preserve">golf club</command>
-    <result xml:space="preserve">You effortlessly hit a hole in one with a nearby pinecone.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-152">
-    <command xml:space="preserve">touch golf club</command>
-    <result xml:space="preserve">It is cold to the touch.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-153"/>
-    </children>
-  </item>
-  <item nodeId="node-153">
-    <command xml:space="preserve">swing golf club</command>
-    <result xml:space="preserve">There's nothing sensible to swing here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-154"/>
-    </children>
-  </item>
-  <item nodeId="node-154">
-    <command xml:space="preserve">swing golf club at door</command>
-    <result xml:space="preserve">I only understood you as far as wanting to swing the golf club.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-155"/>
-    </children>
-  </item>
-  <item nodeId="node-155">
-    <command xml:space="preserve">swing golf club</command>
-    <result xml:space="preserve">There's nothing sensible to swing here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-156"/>
-    </children>
-  </item>
-  <item nodeId="node-156">
-    <command xml:space="preserve">take golf club</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-157"/>
-    </children>
-  </item>
-  <item nodeId="node-157">
-    <command xml:space="preserve">go east</command>
-    <result xml:space="preserve">Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.&#x000A;&#x000A;You can see a tall oak door and a stairs here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-158"/>
-    </children>
-  </item>
-  <item nodeId="node-158">
-    <command xml:space="preserve">swing golf club</command>
-    <result xml:space="preserve">There's nothing sensible to swing here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-159"/>
-    </children>
-  </item>
-  <item nodeId="node-159">
-    <command xml:space="preserve">go east</command>
-    <result xml:space="preserve">Abyss&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-160"/>
-    </children>
-  </item>
-  <item nodeId="node-160">
-    <command xml:space="preserve">swing it</command>
-    <result xml:space="preserve">You must name something more substantial.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-161"/>
-    </children>
-  </item>
-  <item nodeId="node-161">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.&#x000A;&#x000A;You can see a tall oak door and a stairs here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-162"/>
-    </children>
-  </item>
-  <item nodeId="node-162">
-    <command xml:space="preserve">go wets</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-163">
-    <command xml:space="preserve">examine log</command>
-    <result xml:space="preserve">It are partially eaten by termites.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-164">
-    <command xml:space="preserve">push log</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-165"/>
-    </children>
-  </item>
-  <item nodeId="node-165">
-    <command xml:space="preserve">examine log</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-166"/>
-    </children>
-  </item>
-  <item nodeId="node-166">
-    <command xml:space="preserve">examine logs</command>
-    <result xml:space="preserve">It is partially eaten by termites.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-177">
-    <command xml:space="preserve">take log</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-178"/>
-    </children>
-  </item>
-  <item nodeId="node-178">
-    <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  3 log&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-185">
-    <command xml:space="preserve">throw hatchet</command>
-    <result xml:space="preserve">The hatchet is already here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-186"/>
-      <child nodeId="node-189"/>
-    </children>
-  </item>
-  <item nodeId="node-186">
-    <command xml:space="preserve">throw hatchet at a log</command>
-    <result xml:space="preserve">(first taking the hatchet)&#x000A;Futile.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-187"/>
-    </children>
-  </item>
-  <item nodeId="node-187">
-    <command xml:space="preserve">throw hatchet a log</command>
-    <result xml:space="preserve">I only understood you as far as wanting to throw the hatchet.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-188"/>
-    </children>
-  </item>
-  <item nodeId="node-188">
-    <command xml:space="preserve">throw hatchet at log</command>
-    <result xml:space="preserve">Futile.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-189">
-    <command xml:space="preserve">throw hatchet at log</command>
-    <result xml:space="preserve">(first taking the hatchet)&#x000A;Futile.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-190"/>
-    </children>
-  </item>
-  <item nodeId="node-190">
-    <command xml:space="preserve">invetnroy</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-191"/>
-    </children>
-  </item>
-  <item nodeId="node-191">
-    <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  a hatchet&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-192"/>
-    </children>
-  </item>
-  <item nodeId="node-192">
-    <command xml:space="preserve">throw hatchet</command>
-    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-193"/>
-    </children>
-  </item>
-  <item nodeId="node-193">
-    <command xml:space="preserve">inspect log</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-194"/>
-    </children>
-  </item>
-  <item nodeId="node-194">
-    <command xml:space="preserve">examine log</command>
-    <result xml:space="preserve">It is partially eaten by termites.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-195"/>
-    </children>
-  </item>
-  <item nodeId="node-195">
-    <command xml:space="preserve">take log</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-196"/>
-    </children>
-  </item>
-  <item nodeId="node-196">
-    <command xml:space="preserve">throw log at hatchet</command>
-    <result xml:space="preserve">Futile.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-197"/>
-    </children>
-  </item>
-  <item nodeId="node-197">
-    <command xml:space="preserve">throw hatchet at log</command>
-    <result xml:space="preserve">(first taking the hatchet)&#x000A;Futile.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-198"/>
-    </children>
-  </item>
-  <item nodeId="node-198">
-    <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  a hatchet&#x000A;  a log&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-167">
-    <command xml:space="preserve">go wets</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-168"/>
-    </children>
-  </item>
-  <item nodeId="node-168">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">(first opening the tall oak door)&#x000A;&#x000A;Forest&#x000A;You enter a forest, filled with the oaken scent of woodsmoke. A man is crouched over a small fire, with goggles.&#x000A;&#x000A;You can see a tall oak door, 3 logs, a golf club and a hatchet here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-169"/>
-    </children>
-  </item>
-  <item nodeId="node-169">
-    <command xml:space="preserve">throw</command>
-    <result xml:space="preserve">What do you want to throw?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-170"/>
-    </children>
-  </item>
-  <item nodeId="node-170">
-    <command xml:space="preserve">hatchet</command>
-    <result xml:space="preserve">The hatchet is already here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-171"/>
-    </children>
-  </item>
-  <item nodeId="node-171">
-    <command xml:space="preserve">throw hatchet at log</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-172"/>
-    </children>
-  </item>
-  <item nodeId="node-172">
-    <command xml:space="preserve">examine log</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-173"/>
-    </children>
-  </item>
-  <item nodeId="node-173">
-    <command xml:space="preserve">examine logs</command>
-    <result xml:space="preserve">You see nothing special about 3 logs.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-174"/>
-    </children>
-  </item>
-  <item nodeId="node-174">
-    <command xml:space="preserve">take 1 log</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-175"/>
-    </children>
-  </item>
-  <item nodeId="node-175">
-    <command xml:space="preserve">take 1 logs</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-176"/>
-    </children>
-  </item>
-  <item nodeId="node-176">
-    <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  3 logs&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-179">
-    <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-180"/>
-    </children>
-  </item>
-  <item nodeId="node-180">
-    <command xml:space="preserve">push</command>
-    <result xml:space="preserve">(the coffin)&#x000A;You shove the top of the coffin hard and it falls to the side easily.&#x000A;&#x000A;Bedroom&#x000A;Stepping out of the coffin, you turn in a circle, confused. You hear music and chatter coming from below, with stairs to the side.&#x000A;&#x000A;You can see a stairs here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-181"/>
-    </children>
-  </item>
-  <item nodeId="node-181">
-    <command xml:space="preserve">go down</command>
-    <result xml:space="preserve">Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.&#x000A;&#x000A;You can see a tall oak door and a stairs here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-182"/>
-    </children>
-  </item>
-  <item nodeId="node-182">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">(first opening the tall oak door)&#x000A;&#x000A;Forest&#x000A;You enter a forest, filled with the oaken scent of woodsmoke. A man is crouched over a small fire, with goggles.&#x000A;&#x000A;You can see a tall oak door, 3 identical logs, a golf club and a hatchet here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-183"/>
-    </children>
-  </item>
-  <item nodeId="node-183">
-    <command xml:space="preserve">take log</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-184"/>
-    </children>
-  </item>
-  <item nodeId="node-184">
-    <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-52">
+    <command xml:space="preserve">look bookshelf</command>
+    <result xml:space="preserve">[examining the bookshelf]&#x000A;Still just floorboards. From the corner of your eye, you see the other customers looking at you funny.&#x000A;&#x000A;[examining the bookshelf - succeeded]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
 </Skein>
-=======
-<?xml version="1.0"?>
-
-<Skein rootNode="node-1013">
-    <generator>Inform Mac Client (Inform version )</generator>
-    <item nodeId="node-1013">
-        <command xml:space="preserve">Maverick Bday</command>
-        <result xml:space="preserve">
-
-
-You're finally awake. You find yourself covered in darkness, smothered by the forces around you. Dazed, you try to sit up but there's something above you. You roll over to a side but there's something there too. Panicked, you look around blindly. You know you must press on to be free.
-Maverick Bday
-An Interactive Fiction by Tyler Jang and Mary Wang
-Release 1 / Serial number 210415 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
-
-Darkness
-The grips of the coffin surround you. Your lungs fight to choke down air.
-
-If only you could see properly...
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1016"></child>
-            <child nodeId="node-1019"></child>
-        </children>
-    </item>
-    <item nodeId="node-1019">
-        <command xml:space="preserve">push coffin</command>
-        <result xml:space="preserve">You shove the top of the coffin hard and it falls to the side easily.
-
-Tavern
-Stepping out of the coffin, you turn in a circle, confused. Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks. A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.
-
-Other than a small door behind the bartender, there doesn't seem to be any exits. You try to walk to the side to peek around the dwarf but he glares at you. Stopping, your eyes glance down at the key on his necklace, and he growls at you. "I'm trying to work over here. What do you want?"
-
-Instead of responding, you look around and see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts.
-
-In the corner, a bookshelf sways haphazardly. Several books threaten to fall down above the minstrel, obliviously strumming away on what looks to be a hand harp. Next to the minstrel, there is a piece of paper tacked to the wall next to him, with the name "Featherock" in bold font. Why does that name sound so familiar?
-
-You can also see a Featherock, a bartender and a hooded figure here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1052"></child>
-            <child nodeId="node-1049"></child>
-            <child nodeId="node-1028"></child>
-            <child nodeId="node-1032"></child>
-            <child nodeId="node-1041"></child>
-            <child nodeId="node-1026"></child>
-            <child nodeId="node-1021"></child>
-            <child nodeId="node-1037"></child>
-            <child nodeId="node-1039"></child>
-        </children>
-    </item>
-    <item nodeId="node-1039">
-        <command xml:space="preserve">push bookshelf</command>
-        <result xml:space="preserve">You give the bookshelf a hard shove and it topples over, falling onto the minstrel. With a screech, Featherock crumbles into a cloud of dust, his harp clanging to a rest on the ground
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1037">
-        <command xml:space="preserve">look</command>
-        <result xml:space="preserve">Tavern
-Stepping out of the coffin, you turn in a circle, confused. Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks. A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.
-
-Other than a small door behind the bartender, there doesn't seem to be any exits. You try to walk to the side to peek around the dwarf but stop when he glares at you.
-
-Instead, looking around, you see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts.
-
-In the corner, a bookshelf sways haphazardly. Several books threaten to fall down above the minstrel, obliviously strumming away on what looks to be a hand harp. There is a piece of paper tacked to the wall next to him, with the name "Featherock" in bold font.
-
-You can also see Featherock, Hooded Figure and Bartender here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1021">
-        <command xml:space="preserve">examine fireplace</command>
-        <result xml:space="preserve">Weird, you could have sworn there was a fireplace here, but all you see are floorboards. Feels a little warm though.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1022"></child>
-        </children>
-    </item>
-    <item nodeId="node-1022">
-        <command xml:space="preserve">examine tavern</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1023"></child>
-        </children>
-    </item>
-    <item nodeId="node-1023">
-        <command xml:space="preserve">examine fireplace</command>
-        <result xml:space="preserve">Ouch, that's hot! Maybe we shouldn't keep looking closer...
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1024"></child>
-        </children>
-    </item>
-    <item nodeId="node-1024">
-        <command xml:space="preserve">examine bookshelf</command>
-        <result xml:space="preserve">Still just floorboards. From the corner of your eye, you see the other customers looking at you funny.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1026">
-        <command xml:space="preserve">examine bookshelf</command>
-        <result xml:space="preserve">Just floorboards. Nothing interesting here, nope.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1041">
-        <command xml:space="preserve">examine bartender</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1042"></child>
-        </children>
-    </item>
-    <item nodeId="node-1042">
-        <command xml:space="preserve">examine the bartender</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1043"></child>
-        </children>
-    </item>
-    <item nodeId="node-1043">
-        <command xml:space="preserve">look</command>
-        <result xml:space="preserve">Tavern
-Stepping out of the coffin, you turn in a circle, confused. Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks. A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.
-
-Other than a small door behind the bartender, there doesn't seem to be any exits. You try to walk to the side to peek around the dwarf but stop when he glares at you.
-
-Instead, looking around, you see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts.
-
-In the corner, a bookshelf sways haphazardly. Several books threaten to fall down above the minstrel, obliviously strumming away on what looks to be a hand harp.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1044"></child>
-        </children>
-    </item>
-    <item nodeId="node-1044">
-        <command xml:space="preserve">ask the bartender about exit</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1045"></child>
-        </children>
-    </item>
-    <item nodeId="node-1045">
-        <command xml:space="preserve">ask the bartender about "exit"</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1046"></child>
-        </children>
-    </item>
-    <item nodeId="node-1046">
-        <command xml:space="preserve">ask bartender about "exit"</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1047"></child>
-        </children>
-    </item>
-    <item nodeId="node-1047">
-        <command xml:space="preserve">ask bartender about exit</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1032">
-        <command xml:space="preserve">examine Tavern</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1033"></child>
-        </children>
-    </item>
-    <item nodeId="node-1033">
-        <command xml:space="preserve">examine</command>
-        <result xml:space="preserve">What do you want to examine?
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1034"></child>
-        </children>
-    </item>
-    <item nodeId="node-1034">
-        <command xml:space="preserve">look at Tavern</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1028">
-        <command xml:space="preserve">examin tavern</command>
-        <result xml:space="preserve">That's not a verb I recognise.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1029"></child>
-        </children>
-    </item>
-    <item nodeId="node-1029">
-        <command xml:space="preserve">examine Tavern</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1030"></child>
-        </children>
-    </item>
-    <item nodeId="node-1030">
-        <command xml:space="preserve">examine tavern</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1049">
-        <command xml:space="preserve">ask bartender about exit</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1050"></child>
-        </children>
-    </item>
-    <item nodeId="node-1050">
-        <command xml:space="preserve">ask bartender</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1052">
-        <command xml:space="preserve">ask bartender</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1016">
-        <command xml:space="preserve">examine coffin</command>
-        <result xml:space="preserve">You breathe in and breathe out. When you calm down enough to look around you, you notice that it isn't as dark as you thought. As your eyes adjust, you look down and - wait, is that your bed?
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1017"></child>
-        </children>
-    </item>
-    <item nodeId="node-1017">
-        <command xml:space="preserve">touch coffin</command>
-        <result xml:space="preserve">The void is… surprisingly soft. It feels suspiciously like styrofoam?
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1018"></child>
-        </children>
-    </item>
-    <item nodeId="node-1018">
-        <command xml:space="preserve">push coffin</command>
-        <result xml:space="preserve">You shove the top of the coffin hard and it falls to the side easily.
-
-Tavern
-Stepping out of the coffin, you turn in a circle, confused. Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.
-
-Looking around, you see a crackling fireplace by the wall.
-
-In the corner, several books threaten to fall down above the minstrel.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-</Skein>
->>>>>>> 78b83464d3ce963ac650c3df1ced514bb25aef06
