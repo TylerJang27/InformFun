@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-79"/>
+  <activeNode nodeId="node-88"/>
   <item nodeId="node-1">
     <command xml:space="preserve">Maverick Bday</command>
     <result xml:space="preserve">You're finally awake. You find yourself covered in darkness, smothered by the forces around you. Dazed, you try to sit up but there's something above you. You roll over to a side but there's something there too. Panicked, you look around blindly. You know you must press on to be free.&#x000A;Maverick Bday&#x000A;An Interactive Fiction by Tyler Jang and Mary Wang&#x000A;Release 1 / Serial number 210416 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Darkness (in the coffin)&#x000A;The grips of the coffin surround you. Your lungs fight to choke down air.&#x000A;&#x000A;&gt;</result>
@@ -9,7 +9,7 @@
     <changed>NO</changed>
     <children>
       <child nodeId="node-2"/>
-      <child nodeId="node-28"/>
+      <child nodeId="node-55"/>
     </children>
   </item>
   <item nodeId="node-2">
@@ -28,7 +28,7 @@
     <changed>NO</changed>
     <children>
       <child nodeId="node-4"/>
-      <child nodeId="node-8"/>
+      <child nodeId="node-25"/>
     </children>
   </item>
   <item nodeId="node-4">
@@ -44,12 +44,13 @@
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">(first opening the highway)&#x000A;&#x000A;Arizona&#x000A;As you get off the highway, you notice immediately that it's pretty cold, it's like 72 degrees, practically freezing.&#x000A;The highway leads west back to the Abyss.&#x000A;&#x000A;You see a laptop sitting on a desk just off the highway.&#x000A;&#x000A;There is also a large black notebook lying on the desk next to the laptop. It isn't open, but appears to be labled Engineering.&#x000A;&#x000A;There is a small robot sitting on the ground next to the desk, connected to the laptop by a long orange cable.&#x000A;&#x000A;You can also see a highway and a desk here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-6"/>
-      <child nodeId="node-53"/>
-      <child nodeId="node-58"/>
-      <child nodeId="node-68"/>
+      <child nodeId="node-8"/>
+      <child nodeId="node-13"/>
+      <child nodeId="node-23"/>
+      <child nodeId="node-80"/>
     </children>
   </item>
   <item nodeId="node-6">
@@ -67,153 +68,9 @@
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-53">
-    <command xml:space="preserve">examine the laptop</command>
-    <result xml:space="preserve">The laptop appears to have some code on it, it might do something cool, but it's doesn't have very many comments so who's to say.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-54"/>
-    </children>
-  </item>
-  <item nodeId="node-54">
-    <command xml:space="preserve">examine the laptop</command>
-    <result xml:space="preserve">The laptop appears to have some code on it, it might do something cool, but it's doesn't have very many comments so who's to say.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-55"/>
-    </children>
-  </item>
-  <item nodeId="node-55">
-    <command xml:space="preserve">examine the robot</command>
-    <result xml:space="preserve">Though simple, this robot looks quite functional. It should definitely work, yup. 100% guaranteed.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-56"/>
-    </children>
-  </item>
-  <item nodeId="node-56">
-    <command xml:space="preserve">examine the notebook</command>
-    <result xml:space="preserve">I wonder what could be written in it.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-57"/>
-    </children>
-  </item>
-  <item nodeId="node-57">
-    <command xml:space="preserve">open the notebook</command>
-    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-58">
-    <command xml:space="preserve">open the notebook</command>
-    <result xml:space="preserve">You open the notebook, curious about what interesting designs it may hold...&#x000A;None, there are no designs. There is, however, a key hidden in a compartment cut into the blank pages.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
-    <children>
-      <child nodeId="node-59"/>
-    </children>
-  </item>
-  <item nodeId="node-59">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  a platinum key&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-60"/>
-    </children>
-  </item>
-  <item nodeId="node-60">
-    <command xml:space="preserve">examine notebook</command>
-    <result xml:space="preserve">Yeah, this is probably the best use this has gotten.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-61"/>
-    </children>
-  </item>
-  <item nodeId="node-61">
-    <command xml:space="preserve">touch robot</command>
-    <result xml:space="preserve">As you start the program, the robot begins to move, the data stream on the laptop looks more or less nonsensical, but it traces a perfect square in the dirt, so the positional tracking system must work pretty well.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-62"/>
-    </children>
-  </item>
-  <item nodeId="node-62">
-    <command xml:space="preserve">touch laptop</command>
-    <result xml:space="preserve">You look on in pride as the robot makes another perfect loop.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-63"/>
-    </children>
-  </item>
-  <item nodeId="node-63">
-    <command xml:space="preserve">examine laptop</command>
-    <result xml:space="preserve">As you watch, the laptop's screen starts to turn a bright shade of pink as the code disappears behind the malfunctioning display.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-64"/>
-    </children>
-  </item>
-  <item nodeId="node-64">
-    <command xml:space="preserve">examine robot</command>
-    <result xml:space="preserve">This is a very good robot, should be eligible for some kind of award.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-65"/>
-    </children>
-  </item>
-  <item nodeId="node-65">
-    <command xml:space="preserve">touch notebook</command>
-    <result xml:space="preserve">You feel nothing unexpected.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-66"/>
-    </children>
-  </item>
-  <item nodeId="node-66">
-    <command xml:space="preserve">examine notebook</command>
-    <result xml:space="preserve">Yeah, this is probably the best use this has gotten.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-67"/>
-    </children>
-  </item>
-  <item nodeId="node-67">
-    <command xml:space="preserve">examine desk</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-68">
-    <command xml:space="preserve">examine the desk</command>
-    <result xml:space="preserve">On the desk are a laptop and a notebook (closed).&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-69"/>
-    </children>
-  </item>
-  <item nodeId="node-69">
-    <command xml:space="preserve">look desk</command>
-    <result xml:space="preserve">On the desk are a laptop and a notebook (closed).&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
   <item nodeId="node-8">
-    <command xml:space="preserve">push bookshelf</command>
-    <result xml:space="preserve">You give the bookshelf a hard shove and it topples over, falling onto the minstrel. With a screech, Featherock crumbles into a cloud of dust, his harp clanging to a rest on the ground.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine the laptop</command>
+    <result xml:space="preserve">The laptop appears to have some code on it, it might do something cool, but it's doesn't have very many comments so who's to say.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -221,8 +78,8 @@
     </children>
   </item>
   <item nodeId="node-9">
-    <command xml:space="preserve">ask bartender about where I am</command>
-    <result xml:space="preserve">"Not bad," the dwarf said gruffly. "Here's an iron key. Take the oak door to the west to go camping. Take the heavy metal door to the east to adventure in the howling abyss. I'd recommend taking the dorm door to the north last. It's quite a party up there."&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine the laptop</command>
+    <result xml:space="preserve">The laptop appears to have some code on it, it might do something cool, but it's doesn't have very many comments so who's to say.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -230,8 +87,8 @@
     </children>
   </item>
   <item nodeId="node-10">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">(first opening the tall oak door)&#x000A;&#x000A;Forest&#x000A;You enter a forest, filled with the oaken scent of woodsmoke. A man is crouched over a small fire, with goggles. The oak door leads back east to the Tavern and a path leads west to a Temple.&#x000A;&#x000A;You can see a path, a tall oak door, a log, a golf club, a hatchet, a stick, goggled man and a hammock here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine the robot</command>
+    <result xml:space="preserve">Though simple, this robot looks quite functional. It should definitely work, yup. 100% guaranteed.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -239,8 +96,8 @@
     </children>
   </item>
   <item nodeId="node-11">
-    <command xml:space="preserve">lay in hammock</command>
-    <result xml:space="preserve">You lay in the hammock, and a man in red comes to join you, because he's not gay. He gives you a bronze key.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine the notebook</command>
+    <result xml:space="preserve">I wonder what could be written in it.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -248,26 +105,23 @@
     </children>
   </item>
   <item nodeId="node-12">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">(first opening the path)&#x000A;&#x000A;Temple&#x000A;You enter a grassy temple. A clock tower looms above you, tolling an evening tune. Without warning, discs start shooting out of the wall, crisscrossing in the room.&#x000A;The path leads back east to the Forest.&#x000A;&#x000A;You can see a path and a frisbee here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">open the notebook</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-13"/>
-    </children>
   </item>
   <item nodeId="node-13">
-    <command xml:space="preserve">kick frisbee</command>
-    <result xml:space="preserve">The frisbee falls with a thud. What a block!&#x000A;A key drops from below the disc.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">open the notebook</command>
+    <result xml:space="preserve">You open the notebook, curious about what interesting designs it may hold...&#x000A;None, there are no designs. There is, however, a key hidden in a compartment cut into the blank pages.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-14"/>
     </children>
   </item>
   <item nodeId="node-14">
-    <command xml:space="preserve">go east</command>
-    <result xml:space="preserve">Forest&#x000A;You enter a forest, filled with the oaken scent of woodsmoke. A man is crouched over a small fire, with goggles. The oak door leads back east to the Tavern and a path leads west to a Temple.&#x000A;&#x000A;You can see a path, a tall oak door, a log, a golf club, a hatchet, a stick, goggled man and a hammock here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a platinum key&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -275,8 +129,8 @@
     </children>
   </item>
   <item nodeId="node-15">
-    <command xml:space="preserve">go east</command>
-    <result xml:space="preserve">Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.  A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.&#x000A;&#x000A;Other than a tall oak door on the west wall, a dorm door to the north wall, and a heavy metal door to the east, there doesn't seem to be any other exits. You try to walk toward the oak door but stop when the dwarf glares at you.&#x000A;&#x000A;Instead, looking around, you see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts.&#x000A;&#x000A;In the corner, a bookshelf sways haphazardly. Several books threaten to fall down above the minstrel, obliviously strumming away on what looks to be a hand harp.&#x000A;&#x000A;You can also see a tall oak door, a stairs, a dorm door, a heavy metal door, Featherock, bartender and hooded figure here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine notebook</command>
+    <result xml:space="preserve">Yeah, this is probably the best use this has gotten.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -284,8 +138,8 @@
     </children>
   </item>
   <item nodeId="node-16">
-    <command xml:space="preserve">go east</command>
-    <result xml:space="preserve">(first opening the heavy metal door)&#x000A;&#x000A;Abyss&#x000A;As you enter a pale blue chamber, the temperature seems to suddenly drop almost 10 degrees. The ghastly ghost of Gregor sits in the corner and exclaims: "Throw them into the abyss!" In front of you, on a narrow bridge, some characters appear to be fighting. A mural is seen on the far side of the room.&#x000A;The metal door leads west back to the Tavern, and a highway leads east to Arizona.&#x000A;&#x000A;You can see a heavy metal door, a highway, a mural and Gregor here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">touch robot</command>
+    <result xml:space="preserve">As you start the program, the robot begins to move, the data stream on the laptop looks more or less nonsensical, but it traces a perfect square in the dirt, so the positional tracking system must work pretty well.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -293,8 +147,8 @@
     </children>
   </item>
   <item nodeId="node-17">
-    <command xml:space="preserve">gank mural</command>
-    <result xml:space="preserve">You gank the mural. The fight is won and the Priestess salutes you. A gold key falls from the sky. Suddenly, your pocket feels a little heavier. Peeking inside, you're shocked to discover exactly 3333 gold pieces.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">touch laptop</command>
+    <result xml:space="preserve">You look on in pride as the robot makes another perfect loop.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -302,8 +156,8 @@
     </children>
   </item>
   <item nodeId="node-18">
-    <command xml:space="preserve">ask Gregor about Trinity Force</command>
-    <result xml:space="preserve">Gregor smiled wide, "Here ya go. To the victor go the spoils!"&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine laptop</command>
+    <result xml:space="preserve">As you watch, the laptop's screen starts to turn a bright shade of pink as the code disappears behind the malfunctioning display.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -311,18 +165,17 @@
     </children>
   </item>
   <item nodeId="node-19">
-    <command xml:space="preserve">go east</command>
-    <result xml:space="preserve">(first opening the highway)&#x000A;&#x000A;Arizona&#x000A;As you get off the highway, you notice immediately that it's pretty cold, it's like 72 degrees, practically freezing.&#x000A;The highway leads west back to the Abyss.&#x000A;&#x000A;You see a laptop sitting on a desk just off the highway.&#x000A;&#x000A;There is also a large black notebook lying on the desk next to the laptop. It isn't open, but appears to be labled Engineering.&#x000A;&#x000A;There is a small robot sitting on the ground next to the desk, connected to the laptop by a long orange cable.&#x000A;&#x000A;You can also see a highway and a desk here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine robot</command>
+    <result xml:space="preserve">This is a very good robot, should be eligible for some kind of award.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-20"/>
-      <child nodeId="node-70"/>
     </children>
   </item>
   <item nodeId="node-20">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">Abyss&#x000A;As you enter a pale blue chamber, the temperature seems to suddenly drop almost 10 degrees. The ghastly ghost of Gregor sits in the corner and exclaims: "Throw them into the abyss!" In front of you, on a narrow bridge, some characters appear to be fighting. A mural is seen on the far side of the room.&#x000A;The metal door leads west back to the Tavern, and a highway leads east to Arizona.&#x000A;&#x000A;You can see a highway, a heavy metal door, a mural and Gregor here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">touch notebook</command>
+    <result xml:space="preserve">You feel nothing unexpected.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -330,8 +183,8 @@
     </children>
   </item>
   <item nodeId="node-21">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.  A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.&#x000A;&#x000A;Other than a tall oak door on the west wall, a dorm door to the north wall, and a heavy metal door to the east, there doesn't seem to be any other exits. You try to walk toward the oak door but stop when the dwarf glares at you.&#x000A;&#x000A;Instead, looking around, you see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts.&#x000A;&#x000A;In the corner, a bookshelf sways haphazardly. Several books threaten to fall down above the minstrel, obliviously strumming away on what looks to be a hand harp.&#x000A;&#x000A;You can also see a heavy metal door, a tall oak door, a stairs, a dorm door, Featherock, bartender and hooded figure here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine notebook</command>
+    <result xml:space="preserve">Yeah, this is probably the best use this has gotten.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -339,17 +192,14 @@
     </children>
   </item>
   <item nodeId="node-22">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">(first opening the dorm door)&#x000A;&#x000A;Nightclub&#x000A;The party is lit. Everyone is vibing like there's no tomorrow. Some kid in the corner is doing the macarena. The DJ is the center of attention, keeping the music popping.&#x000A;There is a dorm door leading back south to the tavern and a wooden door leading north.&#x000A;&#x000A;You can see a dorm door, a wooden door, a metal bull, a mirror and DJ here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine desk</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-23"/>
-    </children>
   </item>
   <item nodeId="node-23">
-    <command xml:space="preserve">ask DJ about Everytime We Touch</command>
-    <result xml:space="preserve">What a banger! I'll put it on. Here's a diamond key for your troubles.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine the desk</command>
+    <result xml:space="preserve">On the desk are a laptop and a notebook (closed).&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -357,17 +207,92 @@
     </children>
   </item>
   <item nodeId="node-24">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">(first opening the wooden door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look desk</command>
+    <result xml:space="preserve">On the desk are a laptop and a notebook (closed).&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-80">
+    <command xml:space="preserve">examine desk</command>
+    <result xml:space="preserve">On the desk are a laptop and a notebook (closed).&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-25"/>
+      <child nodeId="node-81"/>
     </children>
   </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">examine laptop</command>
+    <result xml:space="preserve">The laptop appears to have some code on it, it might do something cool, but it's doesn't have very many comments so who's to say.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">examine notebook</command>
+    <result xml:space="preserve">I wonder what could be written in it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">examine robot</command>
+    <result xml:space="preserve">Though simple, this robot looks quite functional. It should definitely work, yup. 100% guaranteed.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-84"/>
+    </children>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">touch laptop</command>
+    <result xml:space="preserve">As you start the program, the robot begins to move, the data stream on the laptop looks more or less nonsensical, but it traces a perfect square in the dirt, so the positional tracking system must work pretty well.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-85"/>
+    </children>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">examine laptop</command>
+    <result xml:space="preserve">As you watch, the laptop's screen starts to turn a bright shade of pink as the code disappears behind the malfunctioning display.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">examine robot</command>
+    <result xml:space="preserve">This is a very good robot, should be eligible for some kind of award.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">open notebook</command>
+    <result xml:space="preserve">You open the notebook, curious about what interesting designs it may hold...&#x000A;None, there are no designs. There is, however, a key hidden in a compartment cut into the blank pages.&#x000A;You take the Platinum Key from the notebook.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">touch robot</command>
+    <result xml:space="preserve">You look on in pride as the robot makes another perfect loop.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
   <item nodeId="node-25">
-    <command xml:space="preserve">exit</command>
-    <result xml:space="preserve">But you aren't in anything at the moment.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">push bookshelf</command>
+    <result xml:space="preserve">You give the bookshelf a hard shove and it topples over, falling onto the minstrel. With a screech, Featherock crumbles into a cloud of dust, his harp clanging to a rest on the ground.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -375,8 +300,8 @@
     </children>
   </item>
   <item nodeId="node-26">
-    <command xml:space="preserve">quit</command>
-    <result xml:space="preserve">Are you sure you want to quit?</result>
+    <command xml:space="preserve">ask bartender about where I am</command>
+    <result xml:space="preserve">"Not bad," the dwarf said gruffly. "Here's an iron key. Take the oak door to the west to go camping. Take the heavy metal door to the east to adventure in the howling abyss. I'd recommend taking the dorm door to the north last. It's quite a party up there."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -384,101 +309,17 @@
     </children>
   </item>
   <item nodeId="node-27">
-    <command xml:space="preserve">yes</command>
-    <result xml:space="preserve"></result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-70">
-    <command xml:space="preserve">open notebook</command>
-    <result xml:space="preserve">You open the notebook, curious about what interesting designs it may hold...&#x000A;None, there are no designs. There is, however, a key hidden in a compartment cut into the blank pages.&#x000A;You take the Platinum Key from the notebook.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-71"/>
-    </children>
-  </item>
-  <item nodeId="node-71">
     <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">Abyss&#x000A;As you enter a pale blue chamber, the temperature seems to suddenly drop almost 10 degrees. The ghastly ghost of Gregor sits in the corner and exclaims: "Throw them into the abyss!" In front of you, on a narrow bridge, some characters appear to be fighting. A mural is seen on the far side of the room.&#x000A;The metal door leads west back to the Tavern, and a highway leads east to Arizona.&#x000A;&#x000A;You can see a highway, a heavy metal door, a mural and Gregor here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">(first opening the tall oak door)&#x000A;&#x000A;Forest&#x000A;You enter a forest, filled with the oaken scent of woodsmoke. A man is crouched over a small fire, with goggles. The oak door leads back east to the Tavern and a path leads west to a Temple.&#x000A;&#x000A;You can see a path, a tall oak door, a log, a golf club, a hatchet, a stick, goggled man and a hammock here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-72"/>
+      <child nodeId="node-28"/>
     </children>
-  </item>
-  <item nodeId="node-72">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.  A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.&#x000A;&#x000A;Other than a tall oak door on the west wall, a dorm door to the north wall, and a heavy metal door to the east, there doesn't seem to be any other exits. You try to walk toward the oak door but stop when the dwarf glares at you.&#x000A;&#x000A;Instead, looking around, you see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts.&#x000A;&#x000A;In the corner, a bookshelf sways haphazardly. Several books threaten to fall down above the minstrel, obliviously strumming away on what looks to be a hand harp.&#x000A;&#x000A;You can also see a heavy metal door, a tall oak door, a stairs, a dorm door, Featherock, bartender and hooded figure here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-73"/>
-    </children>
-  </item>
-  <item nodeId="node-73">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">(first opening the dorm door)&#x000A;&#x000A;Nightclub&#x000A;The party is lit. Everyone is vibing like there's no tomorrow. Some kid in the corner is doing the macarena. The DJ is the center of attention, keeping the music popping.&#x000A;There is a dorm door leading back south to the tavern and a wooden door leading north.&#x000A;&#x000A;You can see a dorm door, a wooden door, a metal bull, a mirror and DJ here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-74"/>
-    </children>
-  </item>
-  <item nodeId="node-74">
-    <command xml:space="preserve">ask DJ about Everytime We Touch</command>
-    <result xml:space="preserve">What a banger! I'll put it on. Here's a diamond key for your troubles.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-75"/>
-    </children>
-  </item>
-  <item nodeId="node-75">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">(first opening the wooden door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-76"/>
-    </children>
-  </item>
-  <item nodeId="node-76">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  a diamond key&#x000A;  a platinum key&#x000A;  Trinity Force&#x000A;  a gold key&#x000A;  a silver key&#x000A;  a bronze key&#x000A;  an iron key&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-77"/>
-    </children>
-  </item>
-  <item nodeId="node-77">
-    <command xml:space="preserve">unlock wooden door</command>
-    <result xml:space="preserve">The door springs open with a click!&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-78"/>
-    </children>
-  </item>
-  <item nodeId="node-78">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">(first opening the wooden door)&#x000A;&#x000A;Birthday&#x000A;As you step inside, a stream of confetti falls down on you and a party hat drops on your head.&#x000A;&#x000A;You walk forward and on the table in front of you is a cake with the words "Happy birthday!" on it. There is a knife and plate next to it.&#x000A;&#x000A;You can also see a wooden door here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-79"/>
-    </children>
-  </item>
-  <item nodeId="node-79">
-    <command xml:space="preserve">eat cake</command>
-    <result xml:space="preserve">(first taking the cake)&#x000A;Happy birthday, Maverick! Congrats on turning 13!&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
   </item>
   <item nodeId="node-28">
-    <command xml:space="preserve">help</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">lay in hammock</command>
+    <result xml:space="preserve">You lay in the hammock, and a man in red comes to join you, because he's not gay. He gives you a bronze key.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -486,8 +327,8 @@
     </children>
   </item>
   <item nodeId="node-29">
-    <command xml:space="preserve">actions</command>
-    <result xml:space="preserve">Actions listing on.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">(first opening the path)&#x000A;&#x000A;Temple&#x000A;You enter a grassy temple. A clock tower looms above you, tolling an evening tune. Without warning, discs start shooting out of the wall, crisscrossing in the room.&#x000A;The path leads back east to the Forest.&#x000A;&#x000A;You can see a path and a frisbee here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -495,8 +336,8 @@
     </children>
   </item>
   <item nodeId="node-30">
-    <command xml:space="preserve">help</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">kick frisbee</command>
+    <result xml:space="preserve">The frisbee falls with a thud. What a block!&#x000A;A key drops from below the disc.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -504,8 +345,8 @@
     </children>
   </item>
   <item nodeId="node-31">
-    <command xml:space="preserve">climb ladder / g</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Forest&#x000A;You enter a forest, filled with the oaken scent of woodsmoke. A man is crouched over a small fire, with goggles. The oak door leads back east to the Tavern and a path leads west to a Temple.&#x000A;&#x000A;You can see a path, a tall oak door, a log, a golf club, a hatchet, a stick, goggled man and a hammock here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -513,8 +354,8 @@
     </children>
   </item>
   <item nodeId="node-32">
-    <command xml:space="preserve">climb ladder</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.  A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.&#x000A;&#x000A;Other than a tall oak door on the west wall, a dorm door to the north wall, and a heavy metal door to the east, there doesn't seem to be any other exits. You try to walk toward the oak door but stop when the dwarf glares at you.&#x000A;&#x000A;Instead, looking around, you see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts.&#x000A;&#x000A;In the corner, a bookshelf sways haphazardly. Several books threaten to fall down above the minstrel, obliviously strumming away on what looks to be a hand harp.&#x000A;&#x000A;You can also see a tall oak door, a stairs, a dorm door, a heavy metal door, Featherock, bartender and hooded figure here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -522,8 +363,8 @@
     </children>
   </item>
   <item nodeId="node-33">
-    <command xml:space="preserve">g</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">(first opening the heavy metal door)&#x000A;&#x000A;Abyss&#x000A;As you enter a pale blue chamber, the temperature seems to suddenly drop almost 10 degrees. The ghastly ghost of Gregor sits in the corner and exclaims: "Throw them into the abyss!" In front of you, on a narrow bridge, some characters appear to be fighting. A mural is seen on the far side of the room.&#x000A;The metal door leads west back to the Tavern, and a highway leads east to Arizona.&#x000A;&#x000A;You can see a heavy metal door, a highway, a mural and Gregor here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -531,8 +372,8 @@
     </children>
   </item>
   <item nodeId="node-34">
-    <command xml:space="preserve">hp</command>
-    <result xml:space="preserve">[hp]&#x000A;You have 10 hit points!&#x000A;[hp - succeeded]&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">gank mural</command>
+    <result xml:space="preserve">You gank the mural. The fight is won and the Priestess salutes you. A gold key falls from the sky. Suddenly, your pocket feels a little heavier. Peeking inside, you're shocked to discover exactly 3333 gold pieces.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -540,8 +381,8 @@
     </children>
   </item>
   <item nodeId="node-35">
-    <command xml:space="preserve">jump</command>
-    <result xml:space="preserve">[jumping]&#x000A;Hippity Hoppity. You have more hp!&#x000A;[jumping - succeeded]&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">ask Gregor about Trinity Force</command>
+    <result xml:space="preserve">Gregor smiled wide, "Here ya go. To the victor go the spoils!"&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -549,17 +390,18 @@
     </children>
   </item>
   <item nodeId="node-36">
-    <command xml:space="preserve">coffin</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">(first opening the highway)&#x000A;&#x000A;Arizona&#x000A;As you get off the highway, you notice immediately that it's pretty cold, it's like 72 degrees, practically freezing.&#x000A;The highway leads west back to the Abyss.&#x000A;&#x000A;You see a laptop sitting on a desk just off the highway.&#x000A;&#x000A;There is also a large black notebook lying on the desk next to the laptop. It isn't open, but appears to be labled Engineering.&#x000A;&#x000A;There is a small robot sitting on the ground next to the desk, connected to the laptop by a long orange cable.&#x000A;&#x000A;You can also see a highway and a desk here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-37"/>
+      <child nodeId="node-45"/>
     </children>
   </item>
   <item nodeId="node-37">
-    <command xml:space="preserve">touch coffin</command>
-    <result xml:space="preserve">[touching the coffin]&#x000A;The void is&#x2026; surprisingly soft. It feels suspiciously like styrofoam and hot glue?&#x000A;[touching the coffin - succeeded]&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Abyss&#x000A;As you enter a pale blue chamber, the temperature seems to suddenly drop almost 10 degrees. The ghastly ghost of Gregor sits in the corner and exclaims: "Throw them into the abyss!" In front of you, on a narrow bridge, some characters appear to be fighting. A mural is seen on the far side of the room.&#x000A;The metal door leads west back to the Tavern, and a highway leads east to Arizona.&#x000A;&#x000A;You can see a highway, a heavy metal door, a mural and Gregor here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -567,8 +409,8 @@
     </children>
   </item>
   <item nodeId="node-38">
-    <command xml:space="preserve">see</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.  A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.&#x000A;&#x000A;Other than a tall oak door on the west wall, a dorm door to the north wall, and a heavy metal door to the east, there doesn't seem to be any other exits. You try to walk toward the oak door but stop when the dwarf glares at you.&#x000A;&#x000A;Instead, looking around, you see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts.&#x000A;&#x000A;In the corner, a bookshelf sways haphazardly. Several books threaten to fall down above the minstrel, obliviously strumming away on what looks to be a hand harp.&#x000A;&#x000A;You can also see a heavy metal door, a tall oak door, a stairs, a dorm door, Featherock, bartender and hooded figure here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -576,8 +418,8 @@
     </children>
   </item>
   <item nodeId="node-39">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">[looking]&#x000A;Darkness (in the coffin)&#x000A;The grips of the coffin surround you. Your lungs fight to choke down air.&#x000A;&#x000A;[looking - succeeded]&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the dorm door)&#x000A;&#x000A;Nightclub&#x000A;The party is lit. Everyone is vibing like there's no tomorrow. Some kid in the corner is doing the macarena. The DJ is the center of attention, keeping the music popping.&#x000A;There is a dorm door leading back south to the tavern and a wooden door leading north.&#x000A;&#x000A;You can see a dorm door, a wooden door, a metal bull, a mirror and DJ here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -585,8 +427,8 @@
     </children>
   </item>
   <item nodeId="node-40">
-    <command xml:space="preserve">inspect coffin</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">ask DJ about Everytime We Touch</command>
+    <result xml:space="preserve">What a banger! I'll put it on. Here's a diamond key for your troubles.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -594,8 +436,8 @@
     </children>
   </item>
   <item nodeId="node-41">
-    <command xml:space="preserve">see coffin</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the wooden door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -603,8 +445,8 @@
     </children>
   </item>
   <item nodeId="node-42">
-    <command xml:space="preserve">look coffin</command>
-    <result xml:space="preserve">[examining the coffin]&#x000A;You breathe in and breathe out. When you calm down enough to look around you, you notice that it isn't as dark as you thought. As your eyes adjust, you look down and - wait, is that your bed?&#x000A;&#x000A;[examining the coffin - succeeded]&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">But you aren't in anything at the moment.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -612,8 +454,8 @@
     </children>
   </item>
   <item nodeId="node-43">
-    <command xml:space="preserve">player</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">quit</command>
+    <result xml:space="preserve">Are you sure you want to quit?</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -621,17 +463,14 @@
     </children>
   </item>
   <item nodeId="node-44">
-    <command xml:space="preserve">where am i</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve"></result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-45"/>
-    </children>
   </item>
   <item nodeId="node-45">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">[taking inventory]&#x000A;You are carrying nothing.&#x000A;&#x000A;[taking inventory - succeeded]&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">open notebook</command>
+    <result xml:space="preserve">You open the notebook, curious about what interesting designs it may hold...&#x000A;None, there are no designs. There is, however, a key hidden in a compartment cut into the blank pages.&#x000A;You take the Platinum Key from the notebook.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -639,8 +478,8 @@
     </children>
   </item>
   <item nodeId="node-46">
-    <command xml:space="preserve">search coffin</command>
-    <result xml:space="preserve">[searching the coffin]&#x000A;The coffin is empty.&#x000A;&#x000A;[searching the coffin - succeeded]&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Abyss&#x000A;As you enter a pale blue chamber, the temperature seems to suddenly drop almost 10 degrees. The ghastly ghost of Gregor sits in the corner and exclaims: "Throw them into the abyss!" In front of you, on a narrow bridge, some characters appear to be fighting. A mural is seen on the far side of the room.&#x000A;The metal door leads west back to the Tavern, and a highway leads east to Arizona.&#x000A;&#x000A;You can see a highway, a heavy metal door, a mural and Gregor here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -648,8 +487,8 @@
     </children>
   </item>
   <item nodeId="node-47">
-    <command xml:space="preserve">push</command>
-    <result xml:space="preserve">(the coffin)&#x000A;[pushing the coffin]&#x000A;You shove the top of the coffin hard and it falls to the side easily.&#x000A;&#x000A;[(1) looking]&#x000A;Bedroom&#x000A;Stepping out of the coffin, you turn in a circle, confused. You hear music and chatter coming from below, with stairs to the side.&#x000A;&#x000A;You can see a stairs here.&#x000A;&#x000A;[(1) looking - succeeded]&#x000A;&#x000A;[pushing the coffin - succeeded]&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.  A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.&#x000A;&#x000A;Other than a tall oak door on the west wall, a dorm door to the north wall, and a heavy metal door to the east, there doesn't seem to be any other exits. You try to walk toward the oak door but stop when the dwarf glares at you.&#x000A;&#x000A;Instead, looking around, you see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts.&#x000A;&#x000A;In the corner, a bookshelf sways haphazardly. Several books threaten to fall down above the minstrel, obliviously strumming away on what looks to be a hand harp.&#x000A;&#x000A;You can also see a heavy metal door, a tall oak door, a stairs, a dorm door, Featherock, bartender and hooded figure here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -657,8 +496,8 @@
     </children>
   </item>
   <item nodeId="node-48">
-    <command xml:space="preserve">go down</command>
-    <result xml:space="preserve">[going down]&#x000A;&#x000A;Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.  A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.&#x000A;&#x000A;Other than a tall oak door on the west wall, a dorm door to the north wall, and a heavy metal door to the east, there doesn't seem to be any other exits. You try to walk toward the oak door but stop when the dwarf glares at you.&#x000A;&#x000A;Instead, looking around, you see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts.&#x000A;&#x000A;In the corner, a bookshelf sways haphazardly. Several books threaten to fall down above the minstrel, obliviously strumming away on what looks to be a hand harp.&#x000A;&#x000A;You can also see a tall oak door, a stairs, a dorm door, a heavy metal door, Featherock, bartender and hooded figure here.&#x000A;&#x000A;[going down - succeeded]&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the dorm door)&#x000A;&#x000A;Nightclub&#x000A;The party is lit. Everyone is vibing like there's no tomorrow. Some kid in the corner is doing the macarena. The DJ is the center of attention, keeping the music popping.&#x000A;There is a dorm door leading back south to the tavern and a wooden door leading north.&#x000A;&#x000A;You can see a dorm door, a wooden door, a metal bull, a mirror and DJ here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -666,8 +505,8 @@
     </children>
   </item>
   <item nodeId="node-49">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">[looking]&#x000A;Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.  A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.&#x000A;&#x000A;Other than a tall oak door on the west wall, a dorm door to the north wall, and a heavy metal door to the east, there doesn't seem to be any other exits. You try to walk toward the oak door but stop when the dwarf glares at you.&#x000A;&#x000A;Instead, looking around, you see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts.&#x000A;&#x000A;In the corner, a bookshelf sways haphazardly. Several books threaten to fall down above the minstrel, obliviously strumming away on what looks to be a hand harp.&#x000A;&#x000A;You can also see a tall oak door, a stairs, a dorm door, a heavy metal door, Featherock, bartender and hooded figure here.&#x000A;&#x000A;[looking - succeeded]&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">ask DJ about Everytime We Touch</command>
+    <result xml:space="preserve">What a banger! I'll put it on. Here's a diamond key for your troubles.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -675,8 +514,8 @@
     </children>
   </item>
   <item nodeId="node-50">
-    <command xml:space="preserve">look bookshelf</command>
-    <result xml:space="preserve">[examining the bookshelf]&#x000A;Just floorboards. Nothing interesting here, nope.&#x000A;&#x000A;[examining the bookshelf - succeeded]&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the wooden door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -684,8 +523,8 @@
     </children>
   </item>
   <item nodeId="node-51">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a diamond key&#x000A;  a platinum key&#x000A;  Trinity Force&#x000A;  a gold key&#x000A;  a silver key&#x000A;  a bronze key&#x000A;  an iron key&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -693,6 +532,246 @@
     </children>
   </item>
   <item nodeId="node-52">
+    <command xml:space="preserve">unlock wooden door</command>
+    <result xml:space="preserve">The door springs open with a click!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the wooden door)&#x000A;&#x000A;Birthday&#x000A;As you step inside, a stream of confetti falls down on you and a party hat drops on your head.&#x000A;&#x000A;You walk forward and on the table in front of you is a cake with the words "Happy birthday!" on it. There is a knife and plate next to it.&#x000A;&#x000A;You can also see a wooden door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">eat cake</command>
+    <result xml:space="preserve">(first taking the cake)&#x000A;Happy birthday, Maverick! Congrats on turning 13!&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">actions</command>
+    <result xml:space="preserve">Actions listing on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">climb ladder / g</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">climb ladder</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-61"/>
+    </children>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">hp</command>
+    <result xml:space="preserve">[hp]&#x000A;You have 10 hit points!&#x000A;[hp - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">[jumping]&#x000A;Hippity Hoppity. You have more hp!&#x000A;[jumping - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-63"/>
+    </children>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">coffin</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-64"/>
+    </children>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">touch coffin</command>
+    <result xml:space="preserve">[touching the coffin]&#x000A;The void is&#x2026; surprisingly soft. It feels suspiciously like styrofoam and hot glue?&#x000A;[touching the coffin - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">see</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-66"/>
+    </children>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">[looking]&#x000A;Darkness (in the coffin)&#x000A;The grips of the coffin surround you. Your lungs fight to choke down air.&#x000A;&#x000A;[looking - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">inspect coffin</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">see coffin</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">look coffin</command>
+    <result xml:space="preserve">[examining the coffin]&#x000A;You breathe in and breathe out. When you calm down enough to look around you, you notice that it isn't as dark as you thought. As your eyes adjust, you look down and - wait, is that your bed?&#x000A;&#x000A;[examining the coffin - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">player</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">where am i</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">[taking inventory]&#x000A;You are carrying nothing.&#x000A;&#x000A;[taking inventory - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">search coffin</command>
+    <result xml:space="preserve">[searching the coffin]&#x000A;The coffin is empty.&#x000A;&#x000A;[searching the coffin - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">push</command>
+    <result xml:space="preserve">(the coffin)&#x000A;[pushing the coffin]&#x000A;You shove the top of the coffin hard and it falls to the side easily.&#x000A;&#x000A;[(1) looking]&#x000A;Bedroom&#x000A;Stepping out of the coffin, you turn in a circle, confused. You hear music and chatter coming from below, with stairs to the side.&#x000A;&#x000A;You can see a stairs here.&#x000A;&#x000A;[(1) looking - succeeded]&#x000A;&#x000A;[pushing the coffin - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">go down</command>
+    <result xml:space="preserve">[going down]&#x000A;&#x000A;Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.  A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.&#x000A;&#x000A;Other than a tall oak door on the west wall, a dorm door to the north wall, and a heavy metal door to the east, there doesn't seem to be any other exits. You try to walk toward the oak door but stop when the dwarf glares at you.&#x000A;&#x000A;Instead, looking around, you see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts.&#x000A;&#x000A;In the corner, a bookshelf sways haphazardly. Several books threaten to fall down above the minstrel, obliviously strumming away on what looks to be a hand harp.&#x000A;&#x000A;You can also see a tall oak door, a stairs, a dorm door, a heavy metal door, Featherock, bartender and hooded figure here.&#x000A;&#x000A;[going down - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-76"/>
+    </children>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">[looking]&#x000A;Tavern&#x000A;Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.  A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.&#x000A;&#x000A;Other than a tall oak door on the west wall, a dorm door to the north wall, and a heavy metal door to the east, there doesn't seem to be any other exits. You try to walk toward the oak door but stop when the dwarf glares at you.&#x000A;&#x000A;Instead, looking around, you see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts.&#x000A;&#x000A;In the corner, a bookshelf sways haphazardly. Several books threaten to fall down above the minstrel, obliviously strumming away on what looks to be a hand harp.&#x000A;&#x000A;You can also see a tall oak door, a stairs, a dorm door, a heavy metal door, Featherock, bartender and hooded figure here.&#x000A;&#x000A;[looking - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-77"/>
+    </children>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">look bookshelf</command>
+    <result xml:space="preserve">[examining the bookshelf]&#x000A;Just floorboards. Nothing interesting here, nope.&#x000A;&#x000A;[examining the bookshelf - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-78"/>
+    </children>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-79"/>
+    </children>
+  </item>
+  <item nodeId="node-79">
     <command xml:space="preserve">look bookshelf</command>
     <result xml:space="preserve">[examining the bookshelf]&#x000A;Still just floorboards. From the corner of your eye, you see the other customers looking at you funny.&#x000A;&#x000A;[examining the bookshelf - succeeded]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
