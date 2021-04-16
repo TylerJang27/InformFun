@@ -61,14 +61,35 @@ The Forest is a room. There is a tall oak door. It is east of Forest and west of
 
 There is a log in the Forest. The description of a log is "It is partially eaten by termites."
 
+The block swinging rule is not listed in the check swinging rules.
 There is a golf club in the Forest. The description of the golf club is "An old rusty 5-Iron is leaning against the tree."
 After touching the golf club:
-	say "It is cold to the touch. You effortlessly hit a hole in one with a nearby pinecone.".
+	say "It is cold to the touch."
+After swinging the golf club:
+	say "You effortlessly hit a hole in one with a nearby pinecone.".
+
+The futile to throw things at inanimate objects rule is not listed in the check throwing it at rules.
+The block throwing at people rule is listed instead of the block throwing at rule in the check throwing it at rules.
+This is the block throwing at people rule:
+	if the second noun is a person, say "That might be construed as an attack." instead.
 
 There is a hatchet in the Forest. The description of the hatchet is "A rubber hatchet with a dull blade rests against a log." The hatchet can be thrown at objects.
 After throwing the hatchet at the log:
 	say "You impale a log, and the hatchet sticks.".
 
+There is a stick in the Forest. The description of the stick is "A tall stick, probably good for walking and poking at fire."
+After taking the stick:
+	say "You poke the stick in the fire and it alights. You feel like Gandalf.".
+
+Lying is an action applying to one thing. Understand "lying in [something]" as lying. Understand "laying in [something]" as lying. Understand "lay in [something]" as lying.
+The key is an object.
+
+In the Forest is a man called goggled man. The description of goggled man is "He does not acknowledge you, but emits a loud yell."
+
+There is a hammock in the Forest. The description of the hammock is "A woven hammock, strung between two trees. Looks comfy."
+After lying the hammock:
+	say "You lay in the hammock, and the goggled man comes to join you, because he’s not gay. He gives you an __ key.";
+	now the player has a key.
 
 
 
