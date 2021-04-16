@@ -135,8 +135,20 @@ After ganking the mural:
 	now the player has gold pieces;
 	now the player has a gold key.
 
-The Arizona is a room. The highway is east of the Abyss and west of Arizona. The highway is a door. The description of Arizona is "It is hot.[line break]The highway leads west back to the Abyss."
-[ TODO FOR JACKSON. MAKE SURE TO GIVE HIM A PLATINUM KEY ]
+A platinum key is an object.
+The Arizona is a room. The highway is east of the Abyss and west of Arizona. The highway is a door. The description of Arizona is "As you get off the highway, you notice immediately that it's pretty cold, it's like 72 degrees, practically freezing.[line break]The highway leads west back to the Abyss."
+There is a desk in the Arizona. The desk is a supporter.
+There is a laptop on the desk. "You see a laptop sitting on a desk just off the highway." The description is "[If we have not touched the laptop and we have not touched the robot]The laptop appears to have some code on it, it might do something cool, but it's doesn't have very many comments so who's to say.[otherwise]As you watch, the laptop's screen starts to turn a bright shade of pink as the code disappears behind the malfunctioning display."
+There is a robot in the Arizona. "There is a small robot sitting on the ground next to the desk, connected to the laptop by a long orange cable." The description is "[If we have not touched the laptop and we have not touched the robot]Though simple, this robot looks quite functional. It should definitely work, yup. 100% guaranteed.[otherwise]This is a very good robot, should be eligible for some kind of award."
+A notebook is an openable container. The notebook is closed.
+There is a notebook on the desk. "There is also a large black notebook lying on the desk next to the laptop. It isn't open, but appears to be labled Engineering." The description is "[If we have not opened the notebook]I wonder what could be written in it.[otherwise]Yeah, this is probably the best use this book has gotten."
+After opening the notebook:
+	say "You open the notebook, curious about what interesting designs it may hold...[line break]None, there are no designs. There is, however, a key hidden in a compartment cut into the blank pages.[line break]You take the Platinum Key from the notebook.";
+	now the player has a platinum key.
+After touching the laptop:
+	say "[If we have not touched the laptop and we have not touched the robot]As you start the program, the robot begins to move, the data stream on the laptop looks more or less nonsensical, but it traces a perfect square in the dirt, so the positional tracking system must work pretty well.[otherwise]You look on in pride as the robot makes another perfect loop.";
+After touching the robot:
+	say "[If we have not touched the laptop and we have not touched the robot]As you start the program, the robot begins to move, the data stream on the laptop looks more or less nonsensical, but it traces a perfect square in the dirt, so the positional tracking system must work pretty well.[otherwise]You look on in pride as the robot makes another perfect loop.";
 
 
 The Nightclub is a room. There is a dorm door. It is north of Tavern and south of Nightclub. It is a door. The description of Nightclub is "The party is lit. Everyone is vibing like there's no tomorrow. Some kid in the corner is doing the macarena. The DJ is the center of attention, keeping the music popping.[line break]There is a dorm door leading back south to the tavern and a wooden door leading north." 
@@ -168,9 +180,10 @@ A check unlocking rule:
 		say "You're missing keys!" instead;
 	if the player does not have a gold key:
 		say "You're missing keys!" instead;
+	if the player does not have a platinum key:
+		say "You're missing keys!" instead;
 	if the player does not have a diamond key:
-		say "You're missing keys!" instead.
-[ add if the player does not have a platinum key: ]				
+		say "You're missing keys!" instead.			
 
 There is a wooden door. It is north of Nightclub and south of Birthday. It is a door. The wooden door is lockable and locked. The description of wooden door is "There are 6 locks on the door, each latched closed securely. You notice that each is made of a different material, from iron to diamond.".
 
