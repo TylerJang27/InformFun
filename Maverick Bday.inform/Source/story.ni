@@ -61,7 +61,7 @@ In the Tavern is a man called hooded figure. The description of hooded figure is
 
 
 
-The Forest is a room. There is a tall oak door. It is east of Forest and west of Tavern. It is a door. The description of the Forest is "You enter a forest, filled with the oaken scent of woodsmoke. A man is crouched over a small fire, with goggles."
+The Forest is a room. There is a tall oak door. It is east of Forest and west of Tavern. It is a door. The description of the Forest is "You enter a forest, filled with the oaken scent of woodsmoke. A man is crouched over a small fire, with goggles. The oak door leads back east to the Tavern and a path leads west to a Temple."
 
 There is a log in the Forest. The description of a log is "It is partially eaten by termites."
 
@@ -95,7 +95,7 @@ After lying the hammock:
 	say "You lay in the hammock, and a man in red comes to join you, because he’s not gay. He gives you a bronze key.";
 	now the player has a bronze key.
 
-The Temple is a room. There is a path. It is east of Temple and west of Forest. It is a door. The description of Temple is "You enter a grassy temple. A clock tower looms above you, tolling an evening tune. Without warning, discs start shooting out of the wall, crisscrossing in the room." 
+The Temple is a room. There is a path. It is east of Temple and west of Forest. It is a door. The description of Temple is "You enter a grassy temple. A clock tower looms above you, tolling an evening tune. Without warning, discs start shooting out of the wall, crisscrossing in the room.[line break]The path leads back east to the Forest." 
 
 There is a frisbee in the Temple. Understand "disc" as frisbee.
 There is a silver key.
@@ -112,9 +112,10 @@ After kicking the frisbee:
 	now the player has a silver key.
 
 Gold pieces is an object. 
-Gold key is an object.
+A gold key is an object.
 Trinity Force is an object.
-The Abyss is a room. "As you enter a pale blue chamber, the temperature seems to suddenly drop almost 10 degrees. The ghastly ghost of Gregor sits in the corner and exclaims: 'Throw them into the abyss!' In front of you, on a narrow bridge, some characters appear to be fighting. A mural is seen on the far side of the room." In the Abyss is a mural. There is a heavy metal door. It is east of Tavern and west of Abyss. It is a door.
+The Abyss is a room. "As you enter a pale blue chamber, the temperature seems to suddenly drop almost 10 degrees. The ghastly ghost of Gregor sits in the corner and exclaims: 'Throw them into the abyss!' In front of you, on a narrow bridge, some characters appear to be fighting. A mural is seen on the far side of the room.[line break]The metal door leads west back to the Tavern, and a highway leads east to Arizona." In the Abyss is a mural. There is a heavy metal door. It is east of Tavern and west of Abyss. It is a door.
+[ TODO FOR JACKSON. CHANGE THE HIGHWAY OR PLACE NAME AS NECESSARY ]
 
 In the Abyss is a man called Gregor. The description of Gregor is "You walk up to Gregor. He is sitting on a chest of sorts, and behind him, random items are placed for sale. Some swords, a green potion- he interrupts your staring with an offer, 'Greetings! I'll sell you a Trinity Force for 3333 gold. Interested?' Not sure what that is, but too bad you don't have any gold to buy things from his shop.".
 
@@ -132,17 +133,29 @@ Ganking is an action applying to one thing. Understand "gank [something]" as gan
 After ganking the mural:
 	say "You gank the mural. The fight is won and the Priestess salutes you. A gold key falls from the sky. Suddenly, your pocket feels a little heavier. Peeking inside, you're shocked to discover exactly 3333 gold pieces.";
 	now the player has gold pieces;
-	now the player has gold key.
+	now the player has a gold key.
 
-The Arizona is a room. It is east of Abyss.
-
-
-
-
-The Nightclub is a room. There is a dorm door. It is north of Tavern and south of Nightclub. It is a door.
+The Arizona is a room. The highway is east of the Abyss and west of Arizona. The highway is a door. The description of Arizona is "It is hot.[line break]The highway leads west back to the Abyss."
+[ TODO FOR JACKSON. MAKE SURE TO GIVE HIM A PLATINUM KEY ]
 
 
+The Nightclub is a room. There is a dorm door. It is north of Tavern and south of Nightclub. It is a door. The description of Nightclub is "The party is lit. Everyone is vibing like there's no tomorrow. Some kid in the corner is doing the macarena. The DJ is the center of attention, keeping the music popping.[line break]There is a dorm door leading back south to the tavern and a wooden door leading north." 
 
+Riding is an action applying to one thing. Understand "ride [something]" as riding.
+
+There is a metal bull in the Nightclub. The description of the metal bull is "The bull bucks back and forth. Who is brave enough to ride it?"
+After riding the bull:
+	say "What!? Are you crazy? You only weigh 20 pounds!"
+There is a diamond key.
+
+There is a mirror in the Nightclub. The description of the mirror is "Some dude is looking back at you. Damn is he hot."
+
+In the Nightclub is a man called DJ. The description of DJ is "A gruff dude pumping out tunes. He might take requests if you ask nicely."
+After asking DJ about "requests":
+	say "Yo I might take requests if you got good taste. What's it gonna be?".
+After asking DJ about "Everytime We Touch":
+	say "What a banger! I'll put it on. Here's a diamond key for your troubles.";
+	now the player has a diamond key.
 
 The Birthday is a room. It is north of Nightclub.
 
