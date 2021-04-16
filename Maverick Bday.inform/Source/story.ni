@@ -108,7 +108,7 @@ After touching the frisbee:
 		say "[line break]You die!";
 		end the story.
 After kicking the frisbee:
-	say "The frisbee falls with a thud. What a block![line break]A key fell from below the disc.";
+	say "The frisbee falls with a thud. What a block![line break]A key drops from below the disc.";
 	now the player has a silver key.
 
 Gold pieces is an object. 
@@ -117,7 +117,7 @@ Trinity Force is an object.
 The Abyss is a room. "As you enter a pale blue chamber, the temperature seems to suddenly drop almost 10 degrees. The ghastly ghost of Gregor sits in the corner and exclaims: 'Throw them into the abyss!' In front of you, on a narrow bridge, some characters appear to be fighting. A mural is seen on the far side of the room.[line break]The metal door leads west back to the Tavern, and a highway leads east to Arizona." In the Abyss is a mural. There is a heavy metal door. It is east of Tavern and west of Abyss. It is a door.
 [ TODO FOR JACKSON. CHANGE THE HIGHWAY OR PLACE NAME AS NECESSARY ]
 
-In the Abyss is a man called Gregor. The description of Gregor is "You walk up to Gregor. He is sitting on a chest of sorts, and behind him, random items are placed for sale. Some swords, a green potion- he interrupts your staring with an offer, 'Greetings! I'll sell you a Trinity Force for 3333 gold. Interested?' Not sure what that is, but too bad you don't have any gold to buy things from his shop.".
+In the Abyss is a man called Gregor. The description of Gregor is "You walk up to Gregor. He is sitting on a chest of sorts, and behind him, random items are placed for sale. Some swords, a green potion- he interrupts your staring with an offer, 'Greetings! I'll sell you a Trinity Force for 3333 gold. Interested?' Not sure what that is, but too bad you don't have any gold to buy things from his shop, huh?".
 
 After asking Gregor about "Trinity Force":
 	say "[if the player does not have gold pieces]Gregor turned away with a sigh. 'Look, if you don't have any gold, I can't help ya there.'[otherwise]Gregor smiled wide, 'Here ya go. To the victor go the spoils!'";
@@ -157,6 +157,14 @@ After asking DJ about "Everytime We Touch":
 	say "What a banger! I'll put it on. Here's a diamond key for your troubles.";
 	now the player has a diamond key.
 
-The Birthday is a room. It is north of Nightclub.
+There is a wooden door. It is north of Nightclub and south of Birthday. It is a door. The wooden door is lockable and locked. The description of wooden door is "There are 6 locks on the door, each latched closed securely. You notice that each is made of a different material, from iron to diamond.".
+
+The Birthday is a room. "As you step inside, a stream of confetti falls down on you and a party hat drops on your head.".
+
+There is a cake in the Birthday. It is edible. "You walk forward and on the table in front of you is a cake with the words 'Happy birthday!' on it. There is a knife and plate next to it.". The description is "It looks delicious!"
+
+After eating the cake:
+	say "Happy birthday, Maverick! Congrats on turning 13!";
+	end the game in victory.
 
 
