@@ -156,8 +156,27 @@ After asking DJ about "requests":
 After asking DJ about "Everytime We Touch":
 	say "What a banger! I'll put it on. Here's a diamond key for your troubles.";
 	now the player has a diamond key.
+	
+Unlocking is an action applying to one thing. Understand "unlock [something]" as unlocking.
+
+A check unlocking rule:
+	if the player does not have an iron key:
+		say "You're missing keys!" instead;
+	if the player does not have a bronze key: 
+		say "You're missing keys!" instead;
+	if the player does not have a silver key:
+		say "You're missing keys!" instead;
+	if the player does not have a gold key:
+		say "You're missing keys!" instead;
+	if the player does not have a diamond key:
+		say "You're missing keys!" instead.
+[ add if the player does not have a platinum key: ]				
 
 There is a wooden door. It is north of Nightclub and south of Birthday. It is a door. The wooden door is lockable and locked. The description of wooden door is "There are 6 locks on the door, each latched closed securely. You notice that each is made of a different material, from iron to diamond.".
+
+After unlocking the wooden door:
+	say "The door springs open with a click!";
+	now the wooden door is unlocked.
 
 The Birthday is a room. "As you step inside, a stream of confetti falls down on you and a party hat drops on your head.".
 
@@ -165,6 +184,6 @@ There is a cake in the Birthday. It is edible. "You walk forward and on the tabl
 
 After eating the cake:
 	say "Happy birthday, Maverick! Congrats on turning 13!";
-	end the game in victory.
+	end the story.
 
 
