@@ -12,7 +12,38 @@ After touching the coffin:
 
 After pushing the coffin:
 	say "You shove the top of the coffin hard and it falls to the side easily.";
-	move player to DnD.
+	move player to Tavern.
 
 
-The DnD is a room. It is north of Darkness. "Stepping out of the coffin, you turn in a circle, confused. Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks."
+The Tavern is a room. It is north of Darkness. "Stepping out of the coffin, you turn in a circle, confused. Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks."
+
+
+
+The Forest is a room. It is west of Tavern.
+
+
+
+
+The Temple is a room. It is west of Forest.
+
+
+
+
+The Abyss is a room. It is east of Tavern.
+
+
+
+
+The Arizona is a room. It is east of Abyss.
+
+
+
+
+The Nightclub is a room. It is north of Tavern.
+
+
+
+
+The Birthday is a room. It is north of Nightclub.
+
+
