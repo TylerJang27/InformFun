@@ -28,10 +28,9 @@ After pushing the coffin:
 The Bedroom is a room. "Stepping out of the coffin, you turn in a circle, confused. You hear music and chatter coming from below, with stairs to the side." The stairs are a staircase. The stairs are below the Bedroom and above the Tavern.
 
 
-The iron key is an object.
 The Tavern is a room. "Somehow, you are in the middle of a dimly lit tavern, with a jolly minstrel playing a faint tune in the corner, and a dwarven bartender passing out drinks.  A hooded figure sitting at the bar counter glances at you briefly, but no one seems to notice the commotion.
 
-	Other than a tall oak door on the west wall, there doesn't seem to be any exits. You try to walk toward the oak door but stop when the dwarf glares at you."
+	Other than a small door behind the bartender, there doesn't seem to be any exits. You try to walk to the side to peek around the dwarf but stop when he glares at you."
 
 
 There is a fireplace in the Tavern. "Instead, looking around, you see a crackling fireplace by the wall. On each side, a suit of armor stalls tall, the metal glinting as the light shifts." The description is "[if we have not examined the fireplace]Weird, you could have sworn there was a fireplace here, but all you see are floorboards. Feels a little warm though.[otherwise]Ouch, that's hot! Maybe we shouldn't keep looking closer..."
@@ -40,16 +39,23 @@ There is a bookshelf in the Tavern. "In the corner, a bookshelf sways haphazardl
 
 In the Tavern is a man called Featherock. The description of Featherock is "Next to the minstrel, there is a piece of paper tacked to the wall next to him, with the name 'Featherock' in bold font. Why does that name sound so familiar?"
 
-In the Tavern is a man called bartender. The description of bartender is "You look back at the bartender tentatively, eyes glancing at the key on his necklace, and he growls at you. 'I'm trying to work over here. What do you want?' Despite his gruffness, you walk up. It'd be nice to know where you are."
+In the Tavern is a man called bartender. The description of bartender is "You look back at the bartender tentatively, eyes glancing at the key on his necklace, and he growls at you. 'I'm trying to work over here. What do you want?'"
+
+After asking bartender about "exit":
+	say "You pull up a seat at the bar, and ask the bartender, 'I'm trying to leave. Where's the exit?' He slams a drink on the counter, 'Ha! You want to leave? Get rid of that minstrel first. He's driving me crazy.' You look back to the bartender. 'Are you sure I have to do this?' He glared at you. Guess that's a yes."
+
+In the Tavern is a man called hooded figure. The description of hooded figure is "Turning to sneak a glance at the hooded figure, you blink in surprise to see that the figure is looking back at you."
+
+After asking hooded figure about "exit":
+	[if we have not asked the hooded figure about "exit"]
+	say "You turn to the hooded figure, 'Hey, do you know where-' But before you can finish your sentence, the figure splits in half into two small halflings, who look at you curiously before vanishing into a puff of smoke.";
+	[otherwise]
+	say "You look around but the hooded figure is nowhere to be found."
+	[endif].
 
 After pushing the bookshelf:
-	say "[if we have not pushed the bookshelf]You give the bookshelf a hard shove and it topples over, falling onto the minstrel. With a screech, Featherock crumbles into a cloud of dust, his harp clanging to a rest on the ground.[otherwise]It's already toppled over.".
+	say "You give the bookshelf a hard shove and it topples over, falling onto the minstrel. With a screech, Featherock crumbles into a cloud of dust, his harp clanging to a rest on the ground".
 
-After asking bartender about "where I am":
-	say "[if we have not pushed the bookshelf]You pull up a seat at the bar, and ask the bartender, 'I'm trying to leave. Where's the exit?' He slams a drink on the counter, 'Ha! You want to leave? Get rid of that minstrel first. He's driving me crazy.' You look back to the bartender. 'Are you sure I have to do this?' He glared at you. Guess that's a yes.[otherwise]'Not bad,' the dwarf said gruffly. 'Here's an iron key. Take the oak door to the west to go camping.'";
-	if we have pushed the bookshelf, now the player has the iron key.
-
-In the Tavern is a man called hooded figure. The description of hooded figure is "[if we have not examined hooded figure]Turning to sneak a glance at the hooded figure, you blink in surprise to see that the figure is looking back at you. Maybe they're friendly? Can't hurt to ask them about an exit right? You start to ask, 'Hey, do you know where-' But before you can finish your sentence, the figure splits in half into two small halflings, who look at you curiously before vanishing into a puff of smoke.[otherwise]You look around but the hooded figure is nowhere to be found.".
 
 The Forest is a room. There is a tall oak door. It is east of Forest and west of Tavern. It is a door. The description of the Forest is "You enter a forest, filled with the oaken scent of woodsmoke. A man is crouched over a small fire, with goggles."
 
@@ -76,17 +82,14 @@ After taking the stick:
 	say "You poke the stick in the fire and it alights. You feel like Gandalf.".
 
 Lying is an action applying to one thing. Understand "lying in [something]" as lying. Understand "laying in [something]" as lying. Understand "lay in [something]" as lying.
-The key is an object.
+The bronze key is an object.
 
 In the Forest is a man called goggled man. The description of goggled man is "He does not acknowledge you, but emits a loud yell."
 
 There is a hammock in the Forest. The description of the hammock is "A woven hammock, strung between two trees. Looks comfy."
 After lying the hammock:
-	say "You lay in the hammock, and the goggled man comes to join you, because he’s not gay. He gives you an __ key.";
-	now the player has a key.
-
-
-
+	say "You lay in the hammock, and a man in red comes to join you, because he’s not gay. He gives you a bronze key.";
+	now the player has a bronze key.
 
 The Temple is a room. It is west of Forest.
 
